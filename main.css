@@ -1,0 +1,160 @@
+
+
+
+/*My Variables*/
+
+:root{
+    --black: #171717;
+    --gray: #707070;
+    --white: #ffffff;
+}
+
+
+
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	
+}
+
+
+
+::-moz-selection { background:var(--black); color: #fff;}
+::selection { background:var(--black); color: #fff;}
+
+@font-face {
+	font-family: "Syne Regular";
+	src: local(/assets/fonts/Syne-Regular.woff2) format('woff2');
+}
+
+@font-face {
+	font-family: "Syne Extra";
+	src: local(/assets/fonts/Syne-Extra.woff2) format('woff2');
+}
+
+
+
+
+
+
+
+h1 a {
+	font-family: "Syne-Extra";
+	color: var(--black);
+	text-decoration: none;
+	transition: all 250ms;
+}
+
+h1 a:hover {
+	color: var(--gray);
+	transition: all 250ms;
+}
+
+.heroText{
+	font-family: "Syne-Extra";
+	color: var(--black);
+}
+
+.subheader{
+	font-family: "Syne-Regular";
+	color: var(--gray);
+}
+
+.homeLinks{
+	font-family: "Syne-Regular";
+	color: var(--gray);
+	text-transform: uppercase;
+}
+
+.homeLinks a {
+	text-decoration: none;
+	color: var(--gray);
+	transition: all 250ms;
+}
+
+.homeLinks a:hover {
+	color: var(--black);
+	transition: all 250ms;
+}
+
+
+
+
+/* small devices (phones, 480px and down) */
+@media only screen and (max-width: 480px) {
+
+}
+
+
+
+/* small devices (phones, 480-600px) */
+@media only screen and (min-width: 481px) {
+
+}
+
+
+/* Small devices (tablet portrait, above 600px) */
+@media only screen and (min-width: 601px) {
+   
+}
+
+
+/* Medium devices (tablet landscape, above 900px) */
+@media only screen and (min-width: 900px) {
+
+}
+
+
+
+/* Standard devices (laptop, above 1200px) */
+@media only screen and (min-width: 1200px) {
+
+
+	.headerBar{
+		width: 100%;
+		padding: 5% 10% 0 10%;
+	}
+
+	h1{
+		font-size: 20px;
+		color: var(--black);
+	}
+
+	.homeTextContent{
+		padding: 0 10%;
+	}
+	
+	.heroText{
+		font-size: 193px;
+		padding: 15% 0 0 0;
+		margin-left: -0.9%;
+	}
+
+	.subheader{
+		font-size: 48px;
+		padding: 0 0 10% 0;
+	}
+
+	.homeLinks{
+		font-size: 24px;
+	}
+
+	.homeLinks li {
+		margin-bottom: 8px;
+		list-style: none;
+	}
+
+
+
+}
+
+
+
+/* large devices (1080p, above 1600px) */
+@media only screen and (min-width: 1800px) {
+
+} 
