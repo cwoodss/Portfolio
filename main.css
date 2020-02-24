@@ -28,12 +28,12 @@
 
 @font-face {
 	font-family: "Syne Regular";
-	src: url(/assets/fonts/Syne-Regular.woff) format('woff');
+	src: url("/assets/fonts/Syne-Regular.woff") format('woff');
 }
 
 @font-face {
 	font-family: "Syne Extra";
-	src: url(/assets/fonts/Syne-Extra.woff) format('woff');
+	src: url("/assets/fonts/Syne-Extra.woff") format('woff');
 }
 
 
