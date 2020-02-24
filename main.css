@@ -26,28 +26,15 @@
 ::-moz-selection { background:var(--black); color: #fff;}
 ::selection { background:var(--black); color: #fff;}
 
-@font-face {
-	font-family: "Syne";
-	font-style: normal;
-	font-weight: 400;
-	src: url("/assets/fonts/Syne-Regular.otf") format('otf');
-  }
-  
-
-  @font-face {
-	font-family: "Syne-Extra";
-	src: url("/assets/fonts/Syne-Extra.otf") format('otf');
-  }
-
 
 h1{
-	font-family: "Syne-Extra";
+	font-family: 'Seymour One' ;
 	color: var(--black);
 	text-decoration: none;
 }
 
 h1 a {
-	font-family: "Syne-Extra";
+	font-family: 'Seymour One' ;
 	color: var(--black);
 	text-decoration: none;
 	transition: all 250ms;
@@ -59,12 +46,12 @@ h1 a:hover {
 }
 
 .heroText{
-	font-family: "Syne-Extra";
+	font-family: 'Seymour One';
 	color: var(--black);
 }
 
 .subheader{
-	font-family: "Syne";
+	font-family: 'Seymour One';
 	color: var(--gray);
 }
 
