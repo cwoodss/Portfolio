@@ -30,17 +30,21 @@
 	font-family: "Syne";
 	font-style: normal;
 	font-weight: 400;
-	src: url(https://gitlab.com/bonjour-monde/fonderie/syne-typeface/raw/master/Webfonts/Syne-Regular.woff2) format('woff2');
+	src: url("/assets/fonts/Syne-Regular.otf") format('otf');
   }
   
 
   @font-face {
-	font-family: "Syne Extra";
-	font-style: normal;
-	font-weight: 400;
-	src: url(https://gitlab.com/bonjour-monde/fonderie/syne-typeface/raw/master/Webfonts/Syne-Extra.woff2) format('woff2');
+	font-family: "Syne-Extra";
+	src: url("/assets/fonts/Syne-Extra.otf") format('otf');
   }
 
+
+h1{
+	font-family: "Syne-Extra";
+	color: var(--black);
+	text-decoration: none;
+}
 
 h1 a {
 	font-family: "Syne-Extra";
@@ -60,12 +64,12 @@ h1 a:hover {
 }
 
 .subheader{
-	font-family: "Syne-Regular";
+	font-family: "Syne";
 	color: var(--gray);
 }
 
 .homeLinks{
-	font-family: "Syne-Regular";
+	font-family: "Syne";
 	color: var(--gray);
 	text-transform: uppercase;
 }
@@ -81,7 +85,27 @@ h1 a:hover {
 	transition: all 250ms;
 }
 
+.sectionHeader{
+	font-family: "Syne";
+	color: var(--gray);
+	text-transform: uppercase;
+}
 
+.paragraph{
+	font-family: "Syne";
+	color: var(--gray);
+}
+
+.paragraph a {
+	font-family: "Syne";
+	color: var(--black);
+	transition: all 250ms;
+}
+
+.paragraph a:hover {
+	color: var(--gray);
+	transition: all 250ms;
+}
 
 
 /* small devices (phones, 480px and down) */
@@ -117,6 +141,15 @@ h1 a:hover {
 	.homeLinks li {
 		margin-bottom: 8px;
 		list-style: none;
+	}
+
+	.sectionHeader{
+		font-size: 19.2px;
+	}
+
+	.paragraph{
+		font-size: 19.2px;
+		padding-bottom: 50px;
 	}
 }
 
@@ -156,6 +189,15 @@ h1 a:hover {
 		margin-bottom: 8px;
 		list-style: none;
 	}	
+	
+	.sectionHeader{
+		font-size: 19.2px;
+	}
+
+	.paragraph{
+		font-size: 24px;
+		padding-bottom: 50px;
+	}
 }
 
 
@@ -196,6 +238,14 @@ h1 a:hover {
 		list-style: none;
 	}
 
+	.sectionHeader{
+		font-size: 19.2px;
+	}
+
+	.paragraph{
+		font-size: 30px;
+		padding-bottom: 50px;
+	}
 }
 
 
@@ -236,6 +286,14 @@ h1 a:hover {
 		list-style: none;
 	}
 
+	.sectionHeader{
+		font-size: 19.2px;
+	}
+
+	.paragraph{
+		font-size: 37.5px;
+		padding-bottom: 50px;
+	}
 }
 
 
@@ -253,7 +311,7 @@ h1 a:hover {
 		font-size: 19.2px;
 	}
 
-	.homeTextContent{
+	.contentWrapper{
 		padding: 0 10vh;
 	}
 	
@@ -276,9 +334,15 @@ h1 a:hover {
 		margin-bottom: 8px;
 		list-style: none;
 	}
+	
+	.sectionHeader{
+		font-size: 19.2px;
+	}
 
-
-
+	.paragraph{
+		font-size: 46.88px;
+		padding-bottom: 50px;
+	}
 }
 
 
@@ -318,4 +382,12 @@ h1 a:hover {
 		list-style: none;
 	}
 
+	.sectionHeader{
+		font-size: 19.2px;
+	}
+
+	.paragraph{
+		font-size: 58.59px;
+		padding-bottom: 50px;
+	}
 } 
