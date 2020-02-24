@@ -5,8 +5,9 @@
 
 :root{
     --black: #171717;
-    --gray: #707070;
-    --white: #ffffff;
+	--gray: #707070;
+	--lightgray: #C9C9C9;
+	--white: #ffffff;
 }
 
 
@@ -28,13 +29,13 @@
 
 
 h1{
-	font-family: 'Seymour One' ;
+	font-family: 'Syne-Extra' ;
 	color: var(--black);
 	text-decoration: none;
 }
 
 h1 a {
-	font-family: 'Seymour One' ;
+	font-family: 'Syne-Extra' ;
 	color: var(--black);
 	text-decoration: none;
 	transition: all 250ms;
@@ -46,12 +47,12 @@ h1 a:hover {
 }
 
 .heroText{
-	font-family: 'Seymour One';
+	font-family: 'Syne-Extra' ;
 	color: var(--black);
 }
 
 .subheader{
-	font-family: 'Seymour One';
+	font-family: 'Syne';
 	color: var(--gray);
 }
 
@@ -94,6 +95,47 @@ h1 a:hover {
 	transition: all 250ms;
 }
 
+.prefooterHeadline {
+	font-family: "Syne-Extra";
+	color: var(--black);
+}
+
+.prefooterSectionLink {
+	font-family: "Syne";
+	color: var(--gray);
+}
+
+.prefooterSectionLink a {
+	font-family: "Syne";
+	color: var(--black);
+	transition: all 250ms;
+}
+
+.prefooterSectionLink a:hover {
+	color: var(--gray);
+	transition: all 250ms;
+}
+
+.prefooterSectionCaption {
+	font-family: "Syne";
+	color: var(--gray);
+}
+
+.prefooterContact {
+	font-family: "Syne";
+	color: var(--lightgray);
+}
+
+.prefooterContact a {
+	font-family: "Syne";
+	color: var(--lightgray);
+	transition: all 250ms;
+}
+
+.prefooterContact a:hover {
+	color: var(--gray);
+	transition: all 250ms;
+}
 
 /* small devices (phones, 480px and down) */
 @media only screen and (max-width: 480px) {
