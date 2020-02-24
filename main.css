@@ -27,19 +27,19 @@
 ::selection { background:var(--black); color: #fff;}
 
 @font-face {
-	font-family: "Syne Regular";
-	src: url("/assets/fonts/Syne-Regular.woff") format('woff');
-}
+	font-family: "Syne";
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://gitlab.com/bonjour-monde/fonderie/syne-typeface/raw/master/Webfonts/Syne-Regular.woff2) format('woff2');
+  }
+  
 
-@font-face {
+  @font-face {
 	font-family: "Syne Extra";
-	src: url("/assets/fonts/Syne-Extra.woff") format('woff');
-}
-
-
-
-
-
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://gitlab.com/bonjour-monde/fonderie/syne-typeface/raw/master/Webfonts/Syne-Extra.woff2) format('woff2');
+  }
 
 
 h1 a {
