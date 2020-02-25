@@ -12,7 +12,6 @@
 	font-weight: 400;
 	src: url('./assets/fonts/Syne-Extra.otf') format('woff2');
 }
-  
 
 /*My Variables*/
 
@@ -23,8 +22,6 @@
 	--white: #ffffff;
 }
 
-
-
 *{
     margin: 0;
 	padding: 0;
@@ -34,6 +31,47 @@
 	vertical-align: baseline;
 	
 }
+
+
+/* My Background Images */
+
+#MyIDhere{
+	background-image: url();
+	background-size: cover;
+}
+#MyIDhere{
+	background-image: url();
+	background-size: cover;
+}
+#MyIDhere{
+	background-image: url();
+	background-size: cover;
+}
+#MyIDhere{
+	background-image: url();
+	background-size: cover;
+}
+#MyIDhere{
+	background-image: url();
+	background-size: cover;
+}
+#MyIDhere{
+	background-image: url();
+	background-size: cover;
+}
+#MyIDhere{
+	background-image: url();
+	background-size: cover;
+}
+#MyIDhere{
+	background-image: url();
+	background-size: cover;
+}
+#MyIDhere{
+	background-image: url();
+	background-size: cover;
+}
+
 
 
 
@@ -134,10 +172,6 @@ h1 a:hover {
 	transition: all 250ms;
 }
 
-.prefooterSectionCaption {
-	font-family: "Syne";
-	color: var(--gray);
-}
 
 .prefooterContact {
 	font-family: "Syne";
@@ -174,7 +208,7 @@ h1 a:hover {
 		font-size: 19.2px;
 	}
 
-	.homeTextContent{
+	.contentWrapper{
 		padding: 0 2.5vh;
 	}
 	
@@ -221,12 +255,12 @@ h1 a:hover {
 		font-size: 19.2px;
 	}
 
-	.homeTextContent{
+	.contentWrapper{
 		padding: 0 5vh;
 	}
 	
 	.heroText{
-		font-size: 91.55px;
+		font-size: 5vh;
 		padding: 15vh 0 0 0;
 		margin-left: -0.9vh;
 	}
@@ -253,7 +287,212 @@ h1 a:hover {
 		font-size: 24px;
 		padding-bottom: 50px;
 	}
+
+
+
+
+			/*This styling controls the hover effects on our image blocks*/
+
+		.imageBlockContent{
+			position: relative;
+			width: 100%;
+			height: 100%;
+			background-color: rgba(0, 0, 0, 0.8);
+			padding: 0;
+			opacity: 1;
+			transition: all 250ms;
+		}
+	
+		.imageBlockContent:hover{
+			opacity: 1;
+			transition: all 250ms;
+		}
+	
+		.imageBlockContent p {
+			padding: 4vh;
+			color: #fff;
+			font-family: 'Syne-Extra';
+			font-size: 24px;
+			text-transform: uppercase;
+			position: absolute;
+			bottom: 0;
+			  left: 0;
+		}
+	
+	
+	
+		/*This styling controls image block A*/
+	
+		.imageGrid{
+			width: 100%;
+			height: 60vh;
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			margin-bottom: 1%;
+		}
+	
+		.A_blockLeft{
+			width: 40%;
+			height: 100%;
+			order: 1;
+		}
+	
+		.A_blockRight{
+			width: 59%;
+			height: 100%;
+			order: 2;
+			flex-direction: column;
+			display: flex;
+			justify-content: space-between;
+		}
+	
+		.imgDoubleRow{
+			order:1;
+			height: 48%;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+		}
+	
+		.A_rowImageOne{
+			order:1;
+			height: 100%;
+			width: 49%;
+		}
+	
+		.A_rowImageTwo{
+			order:2;
+			height: 100%;
+			width: 49%;
+		}
+	
+		.A_imgSingleRow{
+			order: 2;
+			height: 50%;
+			width: 100%;
+		}
+	
+	
+	
+	
+	
+		/*This styling controls image block B*/
+	
+	
+		.B_blockLeft{ /*Shows up on Right in this config, see "order" parameter below*/
+			order: 2;
+			width: 40%;
+			height: 100%;
+		}
+	
+		.B_blockRight{ /*Shows up on Left in this config, see "order" parameter below*/
+			order: 1;
+			width: 59%;
+			height: 100%;
+			flex-direction: column;
+			display: flex;
+			justify-content: space-between;
+		}
+	
+		.imgDoubleRow{
+			order:1;
+			height: 48%;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+		}
+	
+		.B_rowImageOne{
+			order:1;
+			height: 100%;
+			width: 49%;
+		}
+	
+		.B_rowImageTwo{
+			order:2;
+			height: 100%;
+			width: 49%;
+		}
+	
+		.B_imgSingleRow{
+			order: 2;
+			height: 50%;
+			width: 100%;
+		}
+	
+	
+	
+	
+	
+		/*This styling controls image block C*/
+	
+	
+		.C_blockLeft{
+			order: 1;
+			width: 40%;
+			height: 100%;
+		}
+	
+		.C_blockRight{ 
+			order: 2;
+			width: 59%;
+			height: 100%;
+		}
+	
+	
+	
+	
+	
+		/*This styling controls image block D*/
+	
+	
+		.D_blockLeft{ /*Shows up on Right in this config, see "order" parameter below*/
+			order: 2;
+			width: 40%;
+			height: 100%;
+		}
+	
+		.D_blockRight{ /*Shows up on Left in this config, see "order" parameter below*/
+			order: 1;
+			width: 59%;
+			height: 100%;
+		}
+	
+	
+	
+	
+	
+		/*This styling controls image block E*/
+	
+	
+		.E_block{
+			order: 1;
+			width: 100%;
+			height: 100%;
+		}
+
+
+	
+
 }
+
+
+
+
+
+
+
+
+/*__________________________________________________________________________________________*/
+
+
+
+
+
+
+
 
 
 /* Small devices (tablet portrait, above 600px) */
@@ -269,7 +508,7 @@ h1 a:hover {
 		font-size: 19.2px;
 	}
 
-	.homeTextContent{
+	.contentWrapper{
 		padding: 0 10vh;
 	}
 	
@@ -295,13 +534,82 @@ h1 a:hover {
 
 	.sectionHeader{
 		font-size: 19.2px;
+		margin: 0 0 5vh 0;
 	}
 
 	.paragraph{
 		font-size: 30px;
-		padding-bottom: 50px;
+		padding-bottom: 15vh;
+	}
+
+	.pIndent{
+		font-size: 30px;
+		padding:0 0 0vh 15vh;
+	}
+
+	.longParagraph{
+		font-size: 30px;
+		padding: 0 28vh 15vh 0;
+	}
+
+	.prefooterHeadline{
+		font-size: 30px;
+		padding: 15vh 0 2vh 0;
+		text-align: center;
+		text-transform: uppercase;
+		
+	}
+
+	.prefooterSectionLink{
+		font-size: 30px;
+		padding-bottom: 2vh;
+		text-align: center;
+	}
+
+	.prefooterContact{
+		font-size: 15.36px;
+		padding-bottom: 5vh;
+		text-align: center;
+		padding-bottom: 15vh;
+	}
+
+	.blackBar{
+		height: 5vh;
+	}
+
+	.imageBlockContent p {
+		font-size: 19.2px;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*__________________________________________________________________________________________*/
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Medium devices (tablet landscape, above 900px) */
@@ -317,18 +625,18 @@ h1 a:hover {
 		font-size: 19.2px;
 	}
 
-	.homeTextContent{
+	.contentWrapper{
 		padding: 0 10vh;
 	}
 	
 	.heroText{
-		font-size: 143.05px;
+		font-size: 119px;
 		padding: 15vh 0 0 0;
 		margin-left: -0.9vh;
 	}
 
 	.subheader{
-		font-size: 37.5px;
+		font-size: 30px;
 		padding: 0 0 30vh 0;
 	}
 
@@ -343,13 +651,273 @@ h1 a:hover {
 
 	.sectionHeader{
 		font-size: 19.2px;
+		margin:0 0 5vh 0;
 	}
 
 	.paragraph{
-		font-size: 37.5px;
-		padding-bottom: 50px;
+		font-size: 30px;
+		padding-bottom: 10vh;
 	}
+
+	.pIndent{
+		font-size: 30px;
+		padding:0 0 10vh 10vh;
+	}
+
+	.longParagraph{
+		font-size: 30px;
+		padding: 0 0vh 10vh 0;
+	}
+
+	.prefooterHeadline{
+		font-size: 30px;
+		padding: 15vh 0 2vh 0;
+		text-align: center;
+		text-transform: uppercase;
+		
+	}
+
+	.prefooterSectionLink{
+		font-size: 30px;
+		padding-bottom: 2vh;
+		text-align: center;
+	}
+
+	.prefooterContact{
+		font-size: 15.36px;
+		padding-bottom: 5vh;
+		text-align: center;
+		padding-bottom: 15vh;
+	}
+
+	.blackBar{
+		height: 5vh;
+	}
+
+	.imageBlockContent p {
+		font-size: 19.2px;
+	}
+
+
+
+			/*This styling controls the hover effects on our image blocks*/
+
+			.imageBlockContent{
+				position: relative;
+				width: 100%;
+				height: 100%;
+				background-color: rgba(0, 0, 0, 0.8);
+				padding: 0;
+				opacity: 1;
+				transition: all 250ms;
+			}
+		
+			.imageBlockContent:hover{
+				opacity: 1;
+				transition: all 250ms;
+			}
+		
+			.imageBlockContent p {
+				padding: 4vh;
+				color: #fff;
+				font-family: 'Syne-Extra';
+				font-size: 24px;
+				text-transform: uppercase;
+				position: absolute;
+				bottom: 0;
+				  left: 0;
+			}
+		
+		
+		
+			/*This styling controls image block A*/
+		
+			.imageGrid{
+				width: 100%;
+				height: 90vh;
+				display: flex;
+				flex-direction: row;
+				flex-wrap: wrap;
+				justify-content: space-between;
+				margin-bottom: 1%;
+			}
+		
+			.A_blockLeft{
+				width: 40%;
+				height: 100%;
+				order: 1;
+			}
+		
+			.A_blockRight{
+				width: 59%;
+				height: 100%;
+				order: 2;
+				flex-direction: column;
+				display: flex;
+				justify-content: space-between;
+			}
+		
+			.imgDoubleRow{
+				order:1;
+				height: 48%;
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+			}
+		
+			.A_rowImageOne{
+				order:1;
+				height: 100%;
+				width: 49%;
+			}
+		
+			.A_rowImageTwo{
+				order:2;
+				height: 100%;
+				width: 49%;
+			}
+		
+			.A_imgSingleRow{
+				order: 2;
+				height: 50%;
+				width: 100%;
+			}
+		
+		
+		
+		
+		
+			/*This styling controls image block B*/
+		
+		
+			.B_blockLeft{ /*Shows up on Right in this config, see "order" parameter below*/
+				order: 2;
+				width: 40%;
+				height: 100%;
+			}
+		
+			.B_blockRight{ /*Shows up on Left in this config, see "order" parameter below*/
+				order: 1;
+				width: 59%;
+				height: 100%;
+				flex-direction: column;
+				display: flex;
+				justify-content: space-between;
+			}
+		
+			.imgDoubleRow{
+				order:1;
+				height: 48%;
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+			}
+		
+			.B_rowImageOne{
+				order:1;
+				height: 100%;
+				width: 49%;
+			}
+		
+			.B_rowImageTwo{
+				order:2;
+				height: 100%;
+				width: 49%;
+			}
+		
+			.B_imgSingleRow{
+				order: 2;
+				height: 50%;
+				width: 100%;
+			}
+		
+		
+		
+		
+		
+			/*This styling controls image block C*/
+		
+		
+			.C_blockLeft{
+				order: 1;
+				width: 40%;
+				height: 100%;
+			}
+		
+			.C_blockRight{ 
+				order: 2;
+				width: 59%;
+				height: 100%;
+			}
+		
+		
+		
+		
+		
+			/*This styling controls image block D*/
+		
+		
+			.D_blockLeft{ /*Shows up on Right in this config, see "order" parameter below*/
+				order: 2;
+				width: 40%;
+				height: 100%;
+			}
+		
+			.D_blockRight{ /*Shows up on Left in this config, see "order" parameter below*/
+				order: 1;
+				width: 59%;
+				height: 100%;
+			}
+		
+		
+		
+		
+		
+			/*This styling controls image block E*/
+		
+		
+			.E_block{
+				order: 1;
+				width: 100%;
+				height: 100%;
+			}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*__________________________________________________________________________________________*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -392,13 +960,86 @@ h1 a:hover {
 	
 	.sectionHeader{
 		font-size: 19.2px;
+		padding-bottom: 5vh;
 	}
 
 	.paragraph{
 		font-size: 46.88px;
-		padding-bottom: 50px;
+		padding-bottom: 5vh;
+	}
+
+
+	.pIndent{
+		font-size: 46.88px;
+		padding:0 0 15vh 20vh;
+	}
+
+	.longParagraph{
+		font-size: 46.88px;
+		padding: 0 28vh 10vh 0;
+	}
+
+	.prefooterHeadline{
+		font-size: 58.59px;
+		padding: 15vh 0 2vh 0;
+		text-align: center;
+		text-transform: uppercase;
+		
+	}
+
+	.prefooterSectionLink{
+		font-size: 58.59px;
+		padding-bottom: 2vh;
+		text-align: center;
+	}
+
+	.prefooterContact{
+		font-size: 15.36px;
+		padding-bottom: 5vh;
+		text-align: center;
+		padding-bottom: 15vh;
+	}
+
+	.blackBar{
+		height: 5vh;
+	}
+
+	.imageBlockContent p {
+		font-size: 24px;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*__________________________________________________________________________________________*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -413,7 +1054,7 @@ h1 a:hover {
 		font-size: 19.2px;
 	}
 
-	.homeTextContent{
+	.contentWrapper{
 		padding: 0 10vh;
 	}
 	
@@ -446,7 +1087,7 @@ h1 a:hover {
 		font-size: 58.59px;
 		padding-bottom: 5vh;
 	}
-/*Below needs updated on all*/
+/*Below needs updated on standard & smaller devices*/
 
 	.pIndent{
 		font-size: 58.59px;
@@ -468,13 +1109,7 @@ h1 a:hover {
 
 	.prefooterSectionLink{
 		font-size: 58.59px;
-		padding-bottom: .25vh;
-		text-align: center;
-	}
-
-	.prefooterSectionCaption{
-		font-size: 19.2px;
-		padding-bottom: 1vh;
+		padding-bottom: 2vh;
 		text-align: center;
 	}
 
@@ -488,4 +1123,213 @@ h1 a:hover {
 	.blackBar{
 		height: 5vh;
 	}
+
+
+	/*This styling controls the hover effects on our image blocks*/
+
+	.imageBlockContent{
+		position: relative;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.8);
+		padding: 0;
+		opacity: 1;
+		transition: all 250ms;
+	}
+
+	.imageBlockContent:hover{
+		opacity: 1;
+		transition: all 250ms;
+	}
+
+	.imageBlockContent p {
+		padding: 4vh;
+		color: #fff;
+		font-family: 'Syne-Extra';
+		font-size: 24px;
+		text-transform: uppercase;
+		position: absolute;
+		bottom: 0;
+  		left: 0;
+	}
+
+
+
+	/*This styling controls image block A*/
+
+	.imageGrid{
+		width: 100%;
+		height: 90vh;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin-bottom: 1%;
+	}
+
+	.A_blockLeft{
+		width: 40%;
+		height: 100%;
+		order: 1;
+	}
+
+	.A_blockRight{
+		width: 59%;
+		height: 100%;
+		order: 2;
+		flex-direction: column;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.imgDoubleRow{
+		order:1;
+		height: 48%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.A_rowImageOne{
+		order:1;
+		height: 100%;
+		width: 49%;
+	}
+
+	.A_rowImageTwo{
+		order:2;
+		height: 100%;
+		width: 49%;
+	}
+
+	.A_imgSingleRow{
+		order: 2;
+		height: 50%;
+		width: 100%;
+	}
+
+
+
+
+
+	/*This styling controls image block B*/
+
+
+	.B_blockLeft{ /*Shows up on Right in this config, see "order" parameter below*/
+		order: 2;
+		width: 40%;
+		height: 100%;
+	}
+
+	.B_blockRight{ /*Shows up on Left in this config, see "order" parameter below*/
+		order: 1;
+		width: 59%;
+		height: 100%;
+		flex-direction: column;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.imgDoubleRow{
+		order:1;
+		height: 48%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.B_rowImageOne{
+		order:1;
+		height: 100%;
+		width: 49%;
+	}
+
+	.B_rowImageTwo{
+		order:2;
+		height: 100%;
+		width: 49%;
+	}
+
+	.B_imgSingleRow{
+		order: 2;
+		height: 50%;
+		width: 100%;
+	}
+
+
+
+
+
+	/*This styling controls image block C*/
+
+
+	.C_blockLeft{
+		order: 1;
+		width: 40%;
+		height: 100%;
+	}
+
+	.C_blockRight{ 
+		order: 2;
+		width: 59%;
+		height: 100%;
+	}
+
+
+
+
+
+	/*This styling controls image block D*/
+
+
+	.D_blockLeft{ /*Shows up on Right in this config, see "order" parameter below*/
+		order: 2;
+		width: 40%;
+		height: 100%;
+	}
+
+	.D_blockRight{ /*Shows up on Left in this config, see "order" parameter below*/
+		order: 1;
+		width: 59%;
+		height: 100%;
+	}
+
+
+
+
+
+	/*This styling controls image block E*/
+
+
+	.E_block{
+		order: 1;
+		width: 100%;
+		height: 100%;
+	}
+
+
 } 
+
+@keyframes fade-in {
+	from {
+		opacity: 0
+	}
+	to {
+		opacity: 1
+	}
+}
+
+.fade-in {
+	animation: fade-in 400ms ease-out forwards;
+}
+
+/* svg {
+	position: absolute;
+	top: 0;
+	right: -50%;
+	opacity: .2;
+}
+
+path {
+	transform-origin: center center;
+} */

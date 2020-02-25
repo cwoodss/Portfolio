@@ -1,73 +1,40 @@
-/*
-	Spatial by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
+$(function() {
+    console.log('yo')
 
-(function($) {
+    var details = ['How Google Works', 'Trip to Crete, Greece! 🛫', 'CSS', 'Sketchup', 'Bojack Horseman 🐴', 'The Witcher 3'];
+    var detailsContainer = $('.js-details-container');
 
-	skel.breakpoints({
-		xlarge:	'(max-width: 1680px)',
-		large:	'(max-width: 1280px)',
-		medium:	'(max-width: 980px)',
-		small:	'(max-width: 736px)',
-		xsmall:	'(max-width: 480px)'
-	});
+    var options = {
+        strings: ['reading', 'planning', 'learning', 'practicing', 'watching', 'playing'],
+        typeSpeed: 80,
+        loop: true,
+        loopCount: Infinity,     
+        showCursor: true, 
+        backDelay: 2000,
+        onStringTyped: function(arrayPos, self) {
+            // console.log(arrayPos);
+            var text = details[arrayPos];
 
-	$(function() {
+            detailsContainer.html(
+                '<span class="fade-in">'+ text +'</span>'
+            );
+        },
+    };
+      
+    new Typed('.js-typing-headlines', options);
 
-		var	$window = $(window),
-			$body = $('body');
+    // $(window).on('mousemove', function(e) {
+    //     var friction = .5;
+    //     var x = e.clientX * friction;
+    //     var y = e.clientY * friction;
 
-		// Disable animations/transitions until the page has loaded.
-			$body.addClass('is-loading');
-
-			$window.on('load', function() {
-				window.setTimeout(function() {
-					$body.removeClass('is-loading');
-				}, 100);
-			});
-
-		// Fix: Placeholder polyfill.
-			$('form').placeholder();
-
-		// Prioritize "important" elements on medium.
-			skel.on('+medium -medium', function() {
-				$.prioritize(
-					'.important\\28 medium\\29',
-					skel.breakpoint('medium').active
-				);
-			});
-
-		// Off-Canvas Navigation.
-
-			// Navigation Panel Toggle.
-				$('<a href="#navPanel" class="navPanelToggle"></a>')
-					.appendTo($body);
-
-			// Navigation Panel.
-				$(
-					'<div id="navPanel">' +
-						$('#nav').html() +
-						'<a href="#navPanel" class="close"></a>' +
-					'</div>'
-				)
-					.appendTo($body)
-					.panel({
-						delay: 500,
-						hideOnClick: true,
-						hideOnSwipe: true,
-						resetScroll: true,
-						resetForms: true,
-						side: 'right'
-					});
-
-			// Fix: Remove transitions on WP<10 (poor/buggy performance).
-				if (skel.vars.os == 'wp' && skel.vars.osVersion < 10)
-					$('#navPanel')
-						.css('transition', 'none');
-
-
-	});
-
-})(jQuery);
+    //     var animation = anime({
+    //         targets: 'path',
+    //         translateY: anime.stagger([y, y + 200]),
+    //         translateX: anime.stagger([x, x + 200]),
+    //         duration: 0,
+    //         easing: 'linear',
+    //         delay: anime.stagger(100) 
+    //       });
+    // });
+});
