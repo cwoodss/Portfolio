@@ -86,13 +86,18 @@ h1 a:hover {
 
 .paragraph a {
 	font-family: "Syne";
-	color: var(--black);
+	color: var(--gray);
 	transition: all 250ms;
 }
 
 .paragraph a:hover {
-	color: var(--gray);
+	color: var(--black);
 	transition: all 250ms;
+}
+
+.longParagraph{
+	font-family: "Syne";
+	color: var(--gray);
 }
 
 .prefooterHeadline {
@@ -107,12 +112,12 @@ h1 a:hover {
 
 .prefooterSectionLink a {
 	font-family: "Syne";
-	color: var(--black);
+	color: var(--gray);
 	transition: all 250ms;
 }
 
 .prefooterSectionLink a:hover {
-	color: var(--gray);
+	color: var(--black);
 	transition: all 250ms;
 }
 
@@ -130,12 +135,20 @@ h1 a:hover {
 	font-family: "Syne";
 	color: var(--lightgray);
 	transition: all 250ms;
+	text-decoration: none;
 }
 
 .prefooterContact a:hover {
-	color: var(--gray);
+	color: var(--black);
 	transition: all 250ms;
+	text-decoration: none;
 }
+
+.blackBar{
+	width: 100%;
+	background-color: var(--black);
+}
+
 
 /* small devices (phones, 480px and down) */
 @media only screen and (max-width: 480px) {
@@ -413,10 +426,53 @@ h1 a:hover {
 
 	.sectionHeader{
 		font-size: 19.2px;
+		padding-bottom: 7vh;
 	}
 
 	.paragraph{
 		font-size: 58.59px;
-		padding-bottom: 50px;
+		padding-bottom: 5vh;
+	}
+/*Below needs updated on all*/
+
+	.pIndent{
+		font-size: 58.59px;
+		padding:0 0 25vh 20vh;
+	}
+
+	.longParagraph{
+		font-size: 58.59px;
+		padding: 0 28vh 5vh 0;
+	}
+
+	.prefooterHeadline{
+		font-size: 73.24px;
+		padding: 15vh 0 2vh 0;
+		text-align: center;
+		text-transform: uppercase;
+		
+	}
+
+	.prefooterSectionLink{
+		font-size: 58.59px;
+		padding-bottom: .25vh;
+		text-align: center;
+	}
+
+	.prefooterSectionCaption{
+		font-size: 19.2px;
+		padding-bottom: 1vh;
+		text-align: center;
+	}
+
+	.prefooterContact{
+		font-size: 15.36px;
+		padding-bottom: 5vh;
+		text-align: center;
+		padding-bottom: 15vh;
+	}
+
+	.blackBar{
+		height: 5vh;
 	}
 } 
