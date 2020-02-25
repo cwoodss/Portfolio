@@ -3,14 +3,14 @@
 	font-family: "Syne";
 	font-style: normal;
 	font-weight: 400;
-	src: url(https://gitlab.com/bonjour-monde/fonderie/syne-typeface/raw/master/Webfonts/Syne-Regular.woff2) format('woff2');
+	src: url('./assets/fonts/Syne-Regular.otf') format('woff2');
 }
 
 @font-face {
 	font-family: "Syne-Extra";
 	font-style: normal;
 	font-weight: 400;
-	src: url(https://gitlab.com/bonjour-monde/fonderie/syne-typeface/raw/master/Webfonts/Syne-Extra.woff2) format('woff2');
+	src: url('./assets/fonts/Syne-Extra.otf') format('woff2');
 }
   
 
