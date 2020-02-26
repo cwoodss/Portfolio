@@ -56,6 +56,34 @@
 }
 
 
+/*About Images*/
+#aboutImg1{
+	background-image: url(./assets/images/about/LucasHat.jpg);
+	background-size: cover;
+}
+
+#aboutImg2{
+	background-image: url(./assets/images/about/babyLucas.jpg);
+	background-size: cover;
+}
+
+#aboutImg3{
+	background-image: url(./assets/images/about/lucasDerp.jpg);
+	background-size: cover;
+}
+
+#aboutImg4{
+	background-image: url(./assets/images/about/carWindow.jpg);
+	background-size: cover;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -267,7 +295,7 @@ h1 a:hover {
 	.longParagraph{
 		font-size: 15px;
 		line-height: 150%;
-		padding-bottom: 3vh;
+		padding-bottom: 0vh;
 	}
 
 	.paragraphRow{
@@ -466,7 +494,7 @@ h1 a:hover {
 
 	.prefooterHeadline{
 		font-size: 16px;
-		padding: 15vh 0 2vh 0;
+		padding: 5vh 0 2vh 0;
 		text-align: center;
 		text-transform: uppercase;
 		
@@ -482,7 +510,7 @@ h1 a:hover {
 		font-size: 15.36px;
 		padding-bottom: 5vh;
 		text-align: center;
-		padding-bottom: 15vh;
+		padding-bottom: 5vh;
 	}
 
 	.blackBar{
@@ -588,7 +616,7 @@ h1 a:hover {
 	.longParagraph{
 		font-size: 19.2px;
 		line-height: 150%;
-		padding-bottom: 3vh;
+		padding: 0 5vh 1vh 0;
 	}
 
 	.paragraphRow{
@@ -787,7 +815,7 @@ h1 a:hover {
 
 	.prefooterHeadline{
 		font-size: 19.2px;
-		padding: 15vh 0 2vh 0;
+		padding: 5vh 0 2vh 0;
 		text-align: center;
 		text-transform: uppercase;
 		
@@ -803,7 +831,7 @@ h1 a:hover {
 		font-size: 19.2px;
 		padding-bottom: 5vh;
 		text-align: center;
-		padding-bottom: 15vh;
+		padding-bottom: 5vh;
 	}
 
 	.blackBar{
@@ -899,7 +927,7 @@ h1 a:hover {
 	.longParagraph{
 		font-size: 24px;
 		line-height: 150%;
-		padding-bottom: 3vh;
+		padding: 0 15vh 0vh 0;
 	}
 
 	.paragraphRow{
@@ -1098,7 +1126,7 @@ h1 a:hover {
 
 	.prefooterHeadline{
 		font-size: 19.2px;
-		padding: 15vh 0 2vh 0;
+		padding: 5vh 0 2vh 0;
 		text-align: center;
 		text-transform: uppercase;
 		
@@ -1114,7 +1142,7 @@ h1 a:hover {
 		font-size: 19.2px;
 		padding-bottom: 5vh;
 		text-align: center;
-		padding-bottom: 15vh;
+		padding-bottom: 5vh;
 	}
 
 	.blackBar{
@@ -1204,7 +1232,7 @@ h1 a:hover {
 
 	.sectionHeader{
 		font-size: 19.2px;
-		margin:0 0 8vh 0;
+		margin: 1vh 0 8vh 0;
 	}
 
 	.paragraph{
@@ -1218,15 +1246,16 @@ h1 a:hover {
 
 	.longParagraph{
 		font-size: 30px;
+		padding: 0 0 2vh 0;
 	}
 
 	.paragraphRow{
-		padding-bottom: 24vh;
+		padding-bottom: 2vh;
 	}
 
 	.prefooterHeadline{
 		font-size: 30px;
-		padding: 15vh 0 2vh 0;
+		padding: 5vh 0 2vh 0;
 		text-align: center;
 		text-transform: uppercase;
 		
@@ -1242,7 +1271,7 @@ h1 a:hover {
 		font-size: 15.36px;
 		padding-bottom: 5vh;
 		text-align: center;
-		padding-bottom: 15vh;
+		padding-bottom: 5vh;
 	}
 
 	.blackBar{
@@ -1480,11 +1509,11 @@ h1 a:hover {
 
 
 	.pageHeroImage{
-		width: 40%;
+		width: 43%;
 		height: 70vh;
 		position: absolute;
-		top: 15%;
-		right: 0;
+		top: 10%;
+		right: 0%;
 		z-index: -9999;
 	}
 
@@ -1509,7 +1538,7 @@ h1 a:hover {
 
 	.subheader{
 		font-size: 46.88px;
-		padding: 0 0 25vh 0;
+		padding: 0 0 40vh 0;
 	}
 
 	.homeSubheader{
@@ -1527,7 +1556,6 @@ h1 a:hover {
 	
 	.sectionHeader{
 		font-size: 24px;
-		padding-bottom: 4vh;
 	}
 
 	.paragraph{
@@ -1536,7 +1564,7 @@ h1 a:hover {
 	}
 
 	.paragraphRow{
-		padding-bottom: 30vh;
+		padding-bottom: 10vh;
 
 	}
 
@@ -1548,12 +1576,12 @@ h1 a:hover {
 
 	.longParagraph{
 		font-size: 31px;
-		padding: 0 28vh 10vh 0;
+		padding: 0 10vh 0 0;
 	}
 
 	.prefooterHeadline{
 		font-size: 58.59px;
-		padding: 15vh 0 2vh 0;
+		padding: 5vh 0 2vh 0;
 		text-align: center;
 		text-transform: uppercase;
 		
@@ -1566,10 +1594,9 @@ h1 a:hover {
 	}
 
 	.prefooterContact{
-		font-size: 15.36px;
-		padding-bottom: 5vh;
+		font-size: 24px;
 		text-align: center;
-		padding-bottom: 15vh;
+		padding-bottom: 5vh;
 	}
 
 	.blackBar{
@@ -1838,7 +1865,7 @@ h1 a:hover {
 
 	.subheader{
 		font-size: 58.59px;
-		padding: 0 0 25vh 0;
+		padding: 0 0 60vh 0;
 	}
 
 	.homeSubheader{
@@ -1856,20 +1883,19 @@ h1 a:hover {
 
 	.sectionHeader{
 		font-size: 24px;
-		padding-bottom: 0vh;
+		padding-bottom: 5vh;
 	}
 
 	.paragraph{
 		font-size: 39px;
-		padding-bottom: 3vh;
+		padding-bottom: 15vh;
 		line-height: 150%;
 	}
 
 	.paragraphRow{
-		padding-bottom: 20vh;
+		padding-bottom: 10vh;
 
 	}
-/*Below needs updated on standard & smaller devices*/
 
 	.pIndent{
 		font-size: 39px;
@@ -1878,12 +1904,12 @@ h1 a:hover {
 
 	.longParagraph{
 		font-size: 39px;
-		padding: 0 28vh 5vh 0;
+		padding: 0 20vh 3vh 0;
 	}
 
 	.prefooterHeadline{
 		font-size: 73.24px;
-		padding: 15vh 0 2vh 0;
+		padding: 10vh 0 2vh 0;
 		text-align: center;
 		text-transform: uppercase;
 		
@@ -1899,7 +1925,7 @@ h1 a:hover {
 		font-size: 15.36px;
 		padding-bottom: 5vh;
 		text-align: center;
-		padding-bottom: 15vh;
+		padding-bottom: 10vh;
 	}
 
 	.blackBar{
