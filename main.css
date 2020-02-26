@@ -58,7 +58,7 @@
 
 /*About Images*/
 #aboutImg1{
-	background-image: url(./assets/images/about-LucasHat.jpg);
+	background-image: url(./assets/images/e);
 	background-size: cover;
 }
  
@@ -80,8 +80,98 @@
 
 
 
+#expImage1{
+	background-image: url(./assets/images/experiences-park-mark.jpg);
+	background-size: cover;
+}
+
+#expImage2{
+	background-image: url(./assets/images/experiences-hammock-area.jpg);
+	background-size: cover;
+}
+
+#expImage3{
+	background-image: url(./assets/images/experiences-video-wall.jpg);
+	background-size: cover;
+}
+
+#expImage4{
+	background-image: url(./assets/images/experiences-top-down.jpg);
+	background-size: cover;
+}
+
+#expBlockDImg1{
+	background-image: url(./assets/images/experiences-nasa.jpg);
+	background-size: cover;
+}
+
+#expBlockDImg2{
+	background-image: url(./assets/images/experiences-zoom-out.jpg);
+	background-size: cover;
+}
 
 
+
+
+
+#expBlockAImg1{
+	background-image: url(./assets/images/experiences-under-lights.jpg);
+	background-size: cover;
+}
+ 
+#expBlockAImg2{
+	background-image: url(./assets/images/exp-sat-one.jpg);
+	background-size: cover;
+}
+
+#expBlockAImg3{
+	background-image: url(./assets/images/exp-sat-two.jpg);
+	background-size: cover;
+}
+
+#expBlockAImg4{
+	background-image: url(./assets/images/experiences-second-fl.jpg);
+	background-size: cover;
+}
+
+
+#expBlockE1{
+	background-image: url(./assets/images/exp-ksc-nike.jpg);
+	background-size: cover;
+}
+
+
+
+
+#expB2-1{
+	background-image: url(./assets/images/exp-cube-4.jpg);
+	background-size: cover;
+}
+
+#expB2-2{
+	background-image: url(./assets/images/exp-cube-1.jpg);
+	background-size: cover;
+}
+
+#expB2-3{
+	background-image: url(./assets/images/exp-cube-2.jpg);
+	background-size: cover;
+}
+
+#expB2-4{
+	background-image: url(./assets/images/exp-cube-3.jpg);
+	background-size: cover;
+}
+
+#expC_blockLeft{
+	background-image: url(./assets/images/exp-pride-mac.jpg);
+	background-size: cover;
+}
+
+#expC_blockRight{
+	background-image: url(./assets/images/exp-pride-pic.jpg);
+	background-size: cover;
+}
 
 
 
@@ -112,6 +202,7 @@ h1 a:hover {
 .heroText{
 	font-family: 'Syne-Extra' ;
 	color: var(--black);
+	text-transform: uppercase;
 }
 
 .subheader{
@@ -1187,7 +1278,7 @@ h1 a:hover {
 		width: 50%;
 		height: 50vh;
 		position: absolute;
-		top: 20%;
+		top: 10%;
 		right: 0;
 		z-index: -9999;
 	}
@@ -1209,7 +1300,7 @@ h1 a:hover {
 	.heroText{
 		font-size: 61px;
 		padding: 25vh 0 0 0;
-		margin-left: -0.9vh;
+		
 	}
 
 	.subheader{
