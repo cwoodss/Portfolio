@@ -35,42 +35,26 @@
 
 /* My Background Images */
 
-#MyIDhere{
-	background-image: url();
+#aboutHero{
+	background-image: url(./assets/images/about-HeroImage.jpg);
 	background-size: cover;
 }
-#MyIDhere{
-	background-image: url();
+
+#pmHero{
+	background-image: url(./assets/images/about-HeroImage.jpg);
 	background-size: cover;
 }
-#MyIDhere{
-	background-image: url();
+
+#designHero{
+	background-image: url(./assets/images/about-HeroImage.jpg);
 	background-size: cover;
 }
-#MyIDhere{
-	background-image: url();
+
+#renderHero{
+	background-image: url(./assets/images/about-HeroImage.jpg);
 	background-size: cover;
 }
-#MyIDhere{
-	background-image: url();
-	background-size: cover;
-}
-#MyIDhere{
-	background-image: url();
-	background-size: cover;
-}
-#MyIDhere{
-	background-image: url();
-	background-size: cover;
-}
-#MyIDhere{
-	background-image: url();
-	background-size: cover;
-}
-#MyIDhere{
-	background-image: url();
-	background-size: cover;
-}
+
 
 
 
@@ -197,294 +181,18 @@ h1 a:hover {
 }
 
 
-/* small devices (phones, 480px and down) */
-@media only screen and (max-width: 480px) {
-	.headerBar{
-		width: 80%;
-		padding: 5vh 0 0 2.5vh;
-	}
-
-	h1{
-		font-size: 19.2px;
-	}
-
-	.contentWrapper{
-		padding: 0 2.5vh;
-	}
-	
-	.heroText{
-		font-size: 73.24px;
-		padding: 10vh 0 0 0;
-		margin-left: -0.9%;
-	}
-
-	.subheader{
-		font-size: 19.2px;
-		padding: 0 0 25vh 0;
-	}
-
-	.homeLinks{
-		font-size: 15.36px;
-	}
-
-	.homeLinks li {
-		margin-bottom: 8px;
-		list-style: none;
-	}
-
-	.sectionHeader{
-		font-size: 19.2px;
-	}
-
-	.paragraph{
-		font-size: 19.2px;
-		padding-bottom: 50px;
-	}
-}
-
-
-
-/* small devices (phones, 480-600px) */
-@media only screen and (min-width: 481px) {
-	.headerBar{
-		width: 50%;
-		padding: 5vh 10vh 0 5vh;
-	}
-
-	h1{
-		font-size: 19.2px;
-	}
-
-	.contentWrapper{
-		padding: 0 5vh;
-	}
-	
-	.heroText{
-		font-size: 5vh;
-		padding: 15vh 0 0 0;
-		margin-left: -0.9vh;
-	}
-
-	.subheader{
-		font-size: 24px;
-		padding: 0 0 20vh 0;
-	}
-
-	.homeLinks{
-		font-size: 15.36px;
-	}
-
-	.homeLinks li {
-		margin-bottom: 8px;
-		list-style: none;
-	}	
-	
-	.sectionHeader{
-		font-size: 19.2px;
-	}
-
-	.paragraph{
-		font-size: 24px;
-		padding-bottom: 50px;
-	}
-
-
-
-
-			/*This styling controls the hover effects on our image blocks*/
-
-		.imageBlockContent{
-			position: relative;
-			width: 100%;
-			height: 100%;
-			background-color: rgba(0, 0, 0, 0.8);
-			padding: 0;
-			opacity: 1;
-			transition: all 250ms;
-		}
-	
-		.imageBlockContent:hover{
-			opacity: 1;
-			transition: all 250ms;
-		}
-	
-		.imageBlockContent p {
-			padding: 4vh;
-			color: #fff;
-			font-family: 'Syne-Extra';
-			font-size: 24px;
-			text-transform: uppercase;
-			position: absolute;
-			bottom: 0;
-			  left: 0;
-		}
-	
-	
-	
-		/*This styling controls image block A*/
-	
-		.imageGrid{
-			width: 100%;
-			height: 60vh;
-			display: flex;
-			flex-direction: row;
-			flex-wrap: wrap;
-			justify-content: space-between;
-			margin-bottom: 1%;
-		}
-	
-		.A_blockLeft{
-			width: 40%;
-			height: 100%;
-			order: 1;
-		}
-	
-		.A_blockRight{
-			width: 59%;
-			height: 100%;
-			order: 2;
-			flex-direction: column;
-			display: flex;
-			justify-content: space-between;
-		}
-	
-		.imgDoubleRow{
-			order:1;
-			height: 48%;
-			display: flex;
-			flex-direction: row;
-			justify-content: space-between;
-		}
-	
-		.A_rowImageOne{
-			order:1;
-			height: 100%;
-			width: 49%;
-		}
-	
-		.A_rowImageTwo{
-			order:2;
-			height: 100%;
-			width: 49%;
-		}
-	
-		.A_imgSingleRow{
-			order: 2;
-			height: 50%;
-			width: 100%;
-		}
-	
-	
-	
-	
-	
-		/*This styling controls image block B*/
-	
-	
-		.B_blockLeft{ /*Shows up on Right in this config, see "order" parameter below*/
-			order: 2;
-			width: 40%;
-			height: 100%;
-		}
-	
-		.B_blockRight{ /*Shows up on Left in this config, see "order" parameter below*/
-			order: 1;
-			width: 59%;
-			height: 100%;
-			flex-direction: column;
-			display: flex;
-			justify-content: space-between;
-		}
-	
-		.imgDoubleRow{
-			order:1;
-			height: 48%;
-			display: flex;
-			flex-direction: row;
-			justify-content: space-between;
-		}
-	
-		.B_rowImageOne{
-			order:1;
-			height: 100%;
-			width: 49%;
-		}
-	
-		.B_rowImageTwo{
-			order:2;
-			height: 100%;
-			width: 49%;
-		}
-	
-		.B_imgSingleRow{
-			order: 2;
-			height: 50%;
-			width: 100%;
-		}
-	
-	
-	
-	
-	
-		/*This styling controls image block C*/
-	
-	
-		.C_blockLeft{
-			order: 1;
-			width: 40%;
-			height: 100%;
-		}
-	
-		.C_blockRight{ 
-			order: 2;
-			width: 59%;
-			height: 100%;
-		}
-	
-	
-	
-	
-	
-		/*This styling controls image block D*/
-	
-	
-		.D_blockLeft{ /*Shows up on Right in this config, see "order" parameter below*/
-			order: 2;
-			width: 40%;
-			height: 100%;
-		}
-	
-		.D_blockRight{ /*Shows up on Left in this config, see "order" parameter below*/
-			order: 1;
-			width: 59%;
-			height: 100%;
-		}
-	
-	
-	
-	
-	
-		/*This styling controls image block E*/
-	
-	
-		.E_block{
-			order: 1;
-			width: 100%;
-			height: 100%;
-		}
-
-
-	
-
-}
 
 
 
 
 
-
-
-
+/*__________________________________________________________________________________________*/
+/*__________________________________________________________________________________________*/
+/*__________________________________________________________________________________________*/
+/*________________New Media Query Starts here New Media Query Starts here___________________*/
+/*__________________________________________________________________________________________*/
+/*__________________________________________________________________________________________*/
+/*__________________________________________________________________________________________*/
 /*__________________________________________________________________________________________*/
 
 
@@ -495,36 +203,45 @@ h1 a:hover {
 
 
 
-/* Small devices (tablet portrait, above 600px) */
-@media only screen and (min-width: 601px) {
-   
+/* small devices (phones, 480px and down) */
+@media only screen and (max-width: 480px) {
+
+	.pageHeroImage{
+		width: 40%;
+		height: 30vh;
+		position: absolute;
+		top: 10%;
+		right: 0;
+		z-index: -9999;
+	}
+
 
 	.headerBar{
-		width: 50%;
-		padding: 5vh 10vh 0 10vh;
+		width: 80%;
+		padding: 5vh 0 0 5%;
 	}
 
 	h1{
-		font-size: 19.2px;
+		font-size: 16px;
 	}
 
 	.contentWrapper{
-		padding: 0 10vh;
+		padding: 0 5%;
 	}
 	
 	.heroText{
-		font-size: 114.44px;
+		font-size: 31px;
 		padding: 15vh 0 0 0;
-		margin-left: -0.9vh;
+		margin-left: -0.5%;
 	}
 
 	.subheader{
-		font-size: 30px;
-		padding: 0 0 20vh 0;
+		font-size: 19.2px;
+		padding: 0 0 15vh 0;
 	}
 
 	.homeLinks{
-		font-size: 19.2px;
+		font-size: 15.36px;
 	}
 
 	.homeLinks li {
@@ -534,26 +251,221 @@ h1 a:hover {
 
 	.sectionHeader{
 		font-size: 19.2px;
-		margin: 0 0 5vh 0;
+		margin-bottom: 3vh;
 	}
 
 	.paragraph{
-		font-size: 30px;
-		padding-bottom: 15vh;
+		font-size: 15px;
+		line-height: 150%;
+		padding-bottom: 3vh;
 	}
 
 	.pIndent{
-		font-size: 30px;
-		padding:0 0 0vh 15vh;
+		padding-left: 5%;
 	}
 
 	.longParagraph{
-		font-size: 30px;
-		padding: 0 28vh 15vh 0;
+		font-size: 15px;
+		line-height: 150%;
+		padding-bottom: 3vh;
 	}
 
+	.paragraphRow{
+		padding-bottom: 9vh;
+
+	}
+
+	/*This styling controls the hover effects on our image blocks*/
+
+
+
+	.imageBlockContent{
+		position: relative;
+		width: 100%;
+		height: 100%;
+		background-color: none;
+		padding: 0;
+		opacity: 1;
+	}
+
+	.labelPadder{
+		width: 100%;
+		background-color: rgba(0, 0, 0, 0.6);
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+
+	.imageBlockContent p {
+		
+		color: #fff;
+		font-family: 'Syne-Extra';
+		text-transform: uppercase;
+		font-size: 12px;
+		padding: 2vh;
+		
+	}
+
+
+
+
+	/*This styling controls image block A*/
+
+	.imageGrid{
+		width: 100%;
+		height: 70vh;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin-bottom: 2%;
+	}
+
+	.A_blockLeft{
+		order: 1;
+		width: 100%;
+		height: 49.5%;
+	}
+
+	.A_blockRight{
+		order: 2;
+		width: 100%;
+		height: 49.5%;
+		flex-direction: column;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.imgDoubleRow{
+		order:1;
+		height: 49%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.A_rowImageOne{
+		order:1;
+		height: 100%;
+		width: 49%;
+	}
+
+	.A_rowImageTwo{
+		order:2;
+		height: 100%;
+		width: 49%;
+	}
+
+	.A_imgSingleRow{
+		order: 2;
+		height: 50%;
+		width: 100%;
+	}
+
+
+
+
+
+	/*This styling controls image block B*/
+
+
+	.B_blockLeft{ /*Shows up on Right in this config, see "order" parameter below*/
+		order: 2;
+		width: 100%;
+		height: 49.5%;
+	}
+
+	.B_blockRight{ /*Shows up on Left in this config, see "order" parameter below*/
+		order: 1;
+		width: 100%;
+		height: 49.5%;
+		flex-direction: column;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.imgDoubleRow{
+		order:1;
+		height: 48%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.B_rowImageOne{
+		order:1;
+		height: 100%;
+		width: 49%;
+	}
+
+	.B_rowImageTwo{
+		order:2;
+		height: 100%;
+		width: 49%;
+	}
+
+	.B_imgSingleRow{
+		order: 2;
+		height: 50%;
+		width: 100%;
+	}
+
+
+
+
+
+	/*This styling controls image block C*/
+
+
+	.C_blockLeft{
+		order: 1;
+		width: 100%;
+		height: 49.5%;
+	}
+
+	.C_blockRight{ 
+		order: 2;
+		width: 100%;
+		height: 49.5%;
+	}
+
+
+
+
+
+	/*This styling controls image block D*/
+
+
+	.D_blockLeft{ /*Shows up on Right in this config, see "order" parameter below*/
+		order: 2;
+		width: 100%;
+		height: 49.5%;
+	}
+
+	.D_blockRight{ /*Shows up on Left in this config, see "order" parameter below*/
+		order: 1;
+		width: 100%;
+		height: 49.5%;
+	}
+
+
+
+
+
+	/*This styling controls image block E*/
+
+
+	.E_block{
+		order: 1;
+		width: 100%;
+		height: 100%;
+	}
+
+
+
+
 	.prefooterHeadline{
-		font-size: 30px;
+		font-size: 16px;
 		padding: 15vh 0 2vh 0;
 		text-align: center;
 		text-transform: uppercase;
@@ -561,7 +473,7 @@ h1 a:hover {
 	}
 
 	.prefooterSectionLink{
-		font-size: 30px;
+		font-size: 24px;
 		padding-bottom: 2vh;
 		text-align: center;
 	}
@@ -577,8 +489,636 @@ h1 a:hover {
 		height: 5vh;
 	}
 
-	.imageBlockContent p {
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*__________________________________________________________________________________________*/
+/*__________________________________________________________________________________________*/
+/*__________________________________________________________________________________________*/
+/*________________New Media Query Starts here New Media Query Starts here___________________*/
+/*__________________________________________________________________________________________*/
+/*__________________________________________________________________________________________*/
+/*__________________________________________________________________________________________*/
+/*__________________________________________________________________________________________*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* small devices (phones, 480-600px) */
+@media only screen and (min-width: 481px) {
+
+	.pageHeroImage{
+		width: 40%;
+		height: 40vh;
+		position: absolute;
+		top: 10%;
+		right: 0;
+		z-index: -9999;
+	}
+
+	.headerBar{
+		width: 80%;
+		padding: 5vh 0 0 5%;
+	}
+
+	h1{
 		font-size: 19.2px;
+	}
+
+	.contentWrapper{
+		padding: 0 5%;
+	}
+	
+	.heroText{
+		font-size: 39px;
+		padding: 20vh 0 0 0;
+		margin-left: -0.5%;
+	}
+
+	.subheader{
+		font-size: 19.2px;
+		padding: 0 0 20vh 0;
+	}
+
+	.homeLinks{
+		font-size: 19.2px;
+	}
+
+	.homeLinks li {
+		margin-bottom: 8px;
+		list-style: none;
+	}
+
+	.sectionHeader{
+		font-size: 19.2px;
+		margin-bottom: 3vh;
+	}
+
+	.paragraph{
+		font-size: 19.2px;
+		line-height: 150%;
+		padding-bottom: 3vh;
+	}
+
+	.pIndent{
+		padding-left: 5%;
+	}
+
+	.longParagraph{
+		font-size: 19.2px;
+		line-height: 150%;
+		padding-bottom: 3vh;
+	}
+
+	.paragraphRow{
+		padding-bottom: 9vh;
+
+	}
+
+	/*This styling controls the hover effects on our image blocks*/
+
+
+
+	.imageBlockContent{
+		position: relative;
+		width: 100%;
+		height: 100%;
+		background-color: none;
+		padding: 0;
+		opacity: 1;
+	}
+
+	.labelPadder{
+		width: 100%;
+		background-color: rgba(0, 0, 0, 0.6);
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+
+	.imageBlockContent p {
+		
+		color: #fff;
+		font-family: 'Syne-Extra';
+		text-transform: uppercase;
+		font-size: 12px;
+		padding: 2vh;
+		
+	}
+
+
+
+
+	/*This styling controls image block A*/
+
+	.imageGrid{
+		width: 100%;
+		height: 70vh;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin-bottom: 2%;
+	}
+
+	.A_blockLeft{
+		order: 1;
+		width: 100%;
+		height: 49.5%;
+	}
+
+	.A_blockRight{
+		order: 2;
+		width: 100%;
+		height: 49.5%;
+		flex-direction: column;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.imgDoubleRow{
+		order:1;
+		height: 49%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.A_rowImageOne{
+		order:1;
+		height: 100%;
+		width: 49%;
+	}
+
+	.A_rowImageTwo{
+		order:2;
+		height: 100%;
+		width: 49%;
+	}
+
+	.A_imgSingleRow{
+		order: 2;
+		height: 50%;
+		width: 100%;
+	}
+
+
+
+
+
+	/*This styling controls image block B*/
+
+
+	.B_blockLeft{ /*Shows up on Right in this config, see "order" parameter below*/
+		order: 2;
+		width: 100%;
+		height: 49.5%;
+	}
+
+	.B_blockRight{ /*Shows up on Left in this config, see "order" parameter below*/
+		order: 1;
+		width: 100%;
+		height: 49.5%;
+		flex-direction: column;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.imgDoubleRow{
+		order:1;
+		height: 48%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.B_rowImageOne{
+		order:1;
+		height: 100%;
+		width: 49%;
+	}
+
+	.B_rowImageTwo{
+		order:2;
+		height: 100%;
+		width: 49%;
+	}
+
+	.B_imgSingleRow{
+		order: 2;
+		height: 50%;
+		width: 100%;
+	}
+
+
+
+
+
+	/*This styling controls image block C*/
+
+
+	.C_blockLeft{
+		order: 1;
+		width: 100%;
+		height: 49.5%;
+	}
+
+	.C_blockRight{ 
+		order: 2;
+		width: 100%;
+		height: 49.5%;
+	}
+
+
+
+
+
+	/*This styling controls image block D*/
+
+
+	.D_blockLeft{ /*Shows up on Right in this config, see "order" parameter below*/
+		order: 2;
+		width: 100%;
+		height: 49.5%;
+	}
+
+	.D_blockRight{ /*Shows up on Left in this config, see "order" parameter below*/
+		order: 1;
+		width: 100%;
+		height: 49.5%;
+	}
+
+
+
+
+
+	/*This styling controls image block E*/
+
+
+	.E_block{
+		order: 1;
+		width: 100%;
+		height: 100%;
+	}
+
+
+
+
+	.prefooterHeadline{
+		font-size: 19.2px;
+		padding: 15vh 0 2vh 0;
+		text-align: center;
+		text-transform: uppercase;
+		
+	}
+
+	.prefooterSectionLink{
+		font-size: 24px;
+		padding-bottom: 2vh;
+		text-align: center;
+	}
+
+	.prefooterContact{
+		font-size: 19.2px;
+		padding-bottom: 5vh;
+		text-align: center;
+		padding-bottom: 15vh;
+	}
+
+	.blackBar{
+		height: 5vh;
+	}
+
+}
+
+
+
+
+
+
+
+
+/*__________________________________________________________________________________________*/
+/*__________________________________________________________________________________________*/
+/*__________________________________________________________________________________________*/
+/*________________New Media Query Starts here New Media Query Starts here___________________*/
+/*__________________________________________________________________________________________*/
+/*__________________________________________________________________________________________*/
+/*__________________________________________________________________________________________*/
+/*__________________________________________________________________________________________*/
+
+
+
+
+
+
+
+
+
+/* Small devices (tablet portrait, above 600px) */
+@media only screen and (min-width: 601px) {
+   
+	.pageHeroImage{
+		width: 40%;
+		height: 40vh;
+		position: absolute;
+		top: 10%;
+		right: 0;
+		z-index: -9999;
+	}
+
+	.headerBar{
+		width: 80%;
+		padding: 5vh 0 0 5%;
+	}
+
+	h1{
+		font-size: 19.2px;
+	}
+
+	.contentWrapper{
+		padding: 0 5%;
+	}
+	
+	.heroText{
+		font-size: 48px;
+		padding: 20vh 0 0 0;
+		margin-left: -0.5%;
+	}
+
+	.subheader{
+		font-size: 24px;
+		padding: 0 0 20vh 0;
+	}
+
+	.homeLinks{
+		font-size: 24px;
+	}
+
+	.homeLinks li {
+		margin-bottom: 8px;
+		list-style: none;
+	}
+
+	.sectionHeader{
+		font-size: 24px;
+		margin-bottom: 4vh;
+	}
+
+	.paragraph{
+		font-size: 24px;
+		line-height: 150%;
+		padding-bottom: 4vh;
+	}
+
+	.pIndent{
+		padding-left: 7.5%;
+	}
+
+	.longParagraph{
+		font-size: 24px;
+		line-height: 150%;
+		padding-bottom: 3vh;
+	}
+
+	.paragraphRow{
+		padding-bottom: 12vh;
+
+	}
+
+	/*This styling controls the hover effects on our image blocks*/
+
+
+
+	.imageBlockContent{
+		position: relative;
+		width: 100%;
+		height: 100%;
+		background-color: none;
+		padding: 0;
+		opacity: 1;
+	}
+
+	.labelPadder{
+		width: 100%;
+		background-color: rgba(0, 0, 0, 0.6);
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+
+	.imageBlockContent p {
+		
+		color: #fff;
+		font-family: 'Syne-Extra';
+		text-transform: uppercase;
+		font-size: 12px;
+		padding: 2vh;
+		
+	}
+
+
+
+
+	/*This styling controls image block A*/
+
+	.imageGrid{
+		width: 100%;
+		height: 90vh;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin-bottom: 2%;
+	}
+
+	.A_blockLeft{
+		order: 1;
+		width: 100%;
+		height: 49.5%;
+	}
+
+	.A_blockRight{
+		order: 2;
+		width: 100%;
+		height: 49.5%;
+		flex-direction: column;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.imgDoubleRow{
+		order:1;
+		height: 49%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.A_rowImageOne{
+		order:1;
+		height: 100%;
+		width: 49%;
+	}
+
+	.A_rowImageTwo{
+		order:2;
+		height: 100%;
+		width: 49%;
+	}
+
+	.A_imgSingleRow{
+		order: 2;
+		height: 50%;
+		width: 100%;
+	}
+
+
+
+
+
+	/*This styling controls image block B*/
+
+
+	.B_blockLeft{ /*Shows up on Right in this config, see "order" parameter below*/
+		order: 2;
+		width: 100%;
+		height: 49.5%;
+	}
+
+	.B_blockRight{ /*Shows up on Left in this config, see "order" parameter below*/
+		order: 1;
+		width: 100%;
+		height: 49.5%;
+		flex-direction: column;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.imgDoubleRow{
+		order:1;
+		height: 48%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.B_rowImageOne{
+		order:1;
+		height: 100%;
+		width: 49%;
+	}
+
+	.B_rowImageTwo{
+		order:2;
+		height: 100%;
+		width: 49%;
+	}
+
+	.B_imgSingleRow{
+		order: 2;
+		height: 50%;
+		width: 100%;
+	}
+
+
+
+
+
+	/*This styling controls image block C*/
+
+
+	.C_blockLeft{
+		order: 1;
+		width: 100%;
+		height: 49.5%;
+	}
+
+	.C_blockRight{ 
+		order: 2;
+		width: 100%;
+		height: 49.5%;
+	}
+
+
+
+
+
+	/*This styling controls image block D*/
+
+
+	.D_blockLeft{ /*Shows up on Right in this config, see "order" parameter below*/
+		order: 2;
+		width: 100%;
+		height: 49.5%;
+	}
+
+	.D_blockRight{ /*Shows up on Left in this config, see "order" parameter below*/
+		order: 1;
+		width: 100%;
+		height: 49.5%;
+	}
+
+
+
+
+
+	/*This styling controls image block E*/
+
+
+	.E_block{
+		order: 1;
+		width: 100%;
+		height: 100%;
+	}
+
+
+
+
+	.prefooterHeadline{
+		font-size: 19.2px;
+		padding: 15vh 0 2vh 0;
+		text-align: center;
+		text-transform: uppercase;
+		
+	}
+
+	.prefooterSectionLink{
+		font-size: 24px;
+		padding-bottom: 2vh;
+		text-align: center;
+	}
+
+	.prefooterContact{
+		font-size: 19.2px;
+		padding-bottom: 5vh;
+		text-align: center;
+		padding-bottom: 15vh;
+	}
+
+	.blackBar{
+		height: 5vh;
 	}
 }
 
@@ -593,14 +1133,14 @@ h1 a:hover {
 
 
 
-
-
-
 /*__________________________________________________________________________________________*/
-
-
-
-
+/*__________________________________________________________________________________________*/
+/*__________________________________________________________________________________________*/
+/*________________New Media Query Starts here New Media Query Starts here___________________*/
+/*__________________________________________________________________________________________*/
+/*__________________________________________________________________________________________*/
+/*__________________________________________________________________________________________*/
+/*__________________________________________________________________________________________*/
 
 
 
@@ -615,6 +1155,15 @@ h1 a:hover {
 /* Medium devices (tablet landscape, above 900px) */
 @media only screen and (min-width: 900px) {
 
+	.pageHeroImage{
+		width: 50%;
+		height: 50vh;
+		position: absolute;
+		top: 20%;
+		right: 0;
+		z-index: -9999;
+	}
+
 
 	.headerBar{
 		width: 50%;
@@ -630,14 +1179,18 @@ h1 a:hover {
 	}
 	
 	.heroText{
-		font-size: 119px;
-		padding: 15vh 0 0 0;
+		font-size: 61px;
+		padding: 25vh 0 0 0;
 		margin-left: -0.9vh;
 	}
 
 	.subheader{
 		font-size: 30px;
-		padding: 0 0 30vh 0;
+		padding: 0 0 25vh 0;
+	}
+
+	.homeSubheader{
+		padding: 0 0 15vh 0;
 	}
 
 	.homeLinks{
@@ -651,22 +1204,24 @@ h1 a:hover {
 
 	.sectionHeader{
 		font-size: 19.2px;
-		margin:0 0 5vh 0;
+		margin:0 0 8vh 0;
 	}
 
 	.paragraph{
 		font-size: 30px;
-		padding-bottom: 10vh;
+		padding-bottom: 8vh;
 	}
 
 	.pIndent{
-		font-size: 30px;
-		padding:0 0 10vh 10vh;
+		padding:0 0 0 8vh;
 	}
 
 	.longParagraph{
 		font-size: 30px;
-		padding: 0 0vh 10vh 0;
+	}
+
+	.paragraphRow{
+		padding-bottom: 24vh;
 	}
 
 	.prefooterHeadline{
@@ -700,187 +1255,188 @@ h1 a:hover {
 
 
 
-			/*This styling controls the hover effects on our image blocks*/
+	/*This styling controls the hover effects on our image blocks*/
 
-			.imageBlockContent{
-				position: relative;
-				width: 100%;
-				height: 100%;
-				background-color: rgba(0, 0, 0, 0.8);
-				padding: 0;
-				opacity: 1;
-				transition: all 250ms;
-			}
+	.imageBlockContent{
+		position: relative;
+		width: 100%;
+		height: 100%;
+		background-color: none;
+		padding: 0;
+		opacity: 1;
+	}
+
+	.labelPadder{
+		width: 100%;
+		background-color: rgba(0, 0, 0, 0.6);
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+
+	.imageBlockContent p {
 		
-			.imageBlockContent:hover{
-				opacity: 1;
-				transition: all 250ms;
-			}
+		color: #fff;
+		font-family: 'Syne-Extra';
+		text-transform: uppercase;
+		font-size: 15px;
+		padding: 4vh;
 		
-			.imageBlockContent p {
-				padding: 4vh;
-				color: #fff;
-				font-family: 'Syne-Extra';
-				font-size: 24px;
-				text-transform: uppercase;
-				position: absolute;
-				bottom: 0;
-				  left: 0;
-			}
-		
-		
-		
-			/*This styling controls image block A*/
-		
-			.imageGrid{
-				width: 100%;
-				height: 90vh;
-				display: flex;
-				flex-direction: row;
-				flex-wrap: wrap;
-				justify-content: space-between;
-				margin-bottom: 1%;
-			}
-		
-			.A_blockLeft{
-				width: 40%;
-				height: 100%;
-				order: 1;
-			}
-		
-			.A_blockRight{
-				width: 59%;
-				height: 100%;
-				order: 2;
-				flex-direction: column;
-				display: flex;
-				justify-content: space-between;
-			}
-		
-			.imgDoubleRow{
-				order:1;
-				height: 48%;
-				display: flex;
-				flex-direction: row;
-				justify-content: space-between;
-			}
-		
-			.A_rowImageOne{
-				order:1;
-				height: 100%;
-				width: 49%;
-			}
-		
-			.A_rowImageTwo{
-				order:2;
-				height: 100%;
-				width: 49%;
-			}
-		
-			.A_imgSingleRow{
-				order: 2;
-				height: 50%;
-				width: 100%;
-			}
-		
-		
-		
-		
-		
-			/*This styling controls image block B*/
-		
-		
-			.B_blockLeft{ /*Shows up on Right in this config, see "order" parameter below*/
-				order: 2;
-				width: 40%;
-				height: 100%;
-			}
-		
-			.B_blockRight{ /*Shows up on Left in this config, see "order" parameter below*/
-				order: 1;
-				width: 59%;
-				height: 100%;
-				flex-direction: column;
-				display: flex;
-				justify-content: space-between;
-			}
-		
-			.imgDoubleRow{
-				order:1;
-				height: 48%;
-				display: flex;
-				flex-direction: row;
-				justify-content: space-between;
-			}
-		
-			.B_rowImageOne{
-				order:1;
-				height: 100%;
-				width: 49%;
-			}
-		
-			.B_rowImageTwo{
-				order:2;
-				height: 100%;
-				width: 49%;
-			}
-		
-			.B_imgSingleRow{
-				order: 2;
-				height: 50%;
-				width: 100%;
-			}
-		
-		
-		
-		
-		
-			/*This styling controls image block C*/
-		
-		
-			.C_blockLeft{
-				order: 1;
-				width: 40%;
-				height: 100%;
-			}
-		
-			.C_blockRight{ 
-				order: 2;
-				width: 59%;
-				height: 100%;
-			}
-		
-		
-		
-		
-		
-			/*This styling controls image block D*/
-		
-		
-			.D_blockLeft{ /*Shows up on Right in this config, see "order" parameter below*/
-				order: 2;
-				width: 40%;
-				height: 100%;
-			}
-		
-			.D_blockRight{ /*Shows up on Left in this config, see "order" parameter below*/
-				order: 1;
-				width: 59%;
-				height: 100%;
-			}
-		
-		
-		
-		
-		
-			/*This styling controls image block E*/
-		
-		
-			.E_block{
-				order: 1;
-				width: 100%;
-				height: 100%;
-			}
+	}
+
+
+
+	/*This styling controls image block A*/
+
+	.imageGrid{
+		width: 100%;
+		height: 70vh;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin-bottom: 1%;
+	}
+
+	.A_blockLeft{
+		width: 40%;
+		height: 100%;
+		order: 1;
+	}
+
+	.A_blockRight{
+		width: 59%;
+		height: 100%;
+		order: 2;
+		flex-direction: column;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.imgDoubleRow{
+		order:1;
+		height: 49%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.A_rowImageOne{
+		order:1;
+		height: 100%;
+		width: 49%;
+	}
+
+	.A_rowImageTwo{
+		order:2;
+		height: 100%;
+		width: 49%;
+	}
+
+	.A_imgSingleRow{
+		order: 2;
+		height: 50%;
+		width: 100%;
+	}
+
+
+
+
+
+	/*This styling controls image block B*/
+
+
+	.B_blockLeft{ /*Shows up on Right in this config, see "order" parameter below*/
+		order: 2;
+		width: 40%;
+		height: 100%;
+	}
+
+	.B_blockRight{ /*Shows up on Left in this config, see "order" parameter below*/
+		order: 1;
+		width: 59%;
+		height: 100%;
+		flex-direction: column;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.imgDoubleRow{
+		order:1;
+		height: 48%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.B_rowImageOne{
+		order:1;
+		height: 100%;
+		width: 49%;
+	}
+
+	.B_rowImageTwo{
+		order:2;
+		height: 100%;
+		width: 49%;
+	}
+
+	.B_imgSingleRow{
+		order: 2;
+		height: 50%;
+		width: 100%;
+	}
+
+
+
+
+
+	/*This styling controls image block C*/
+
+
+	.C_blockLeft{
+		order: 1;
+		width: 40%;
+		height: 100%;
+	}
+
+	.C_blockRight{ 
+		order: 2;
+		width: 59%;
+		height: 100%;
+	}
+
+
+
+
+
+	/*This styling controls image block D*/
+
+
+	.D_blockLeft{ /*Shows up on Right in this config, see "order" parameter below*/
+		order: 2;
+		width: 40%;
+		height: 100%;
+	}
+
+	.D_blockRight{ /*Shows up on Left in this config, see "order" parameter below*/
+		order: 1;
+		width: 59%;
+		height: 100%;
+	}
+
+
+
+
+
+	/*This styling controls image block E*/
+
+
+	.E_block{
+		order: 1;
+		width: 100%;
+		height: 100%;
+	}
 }
 
 
@@ -896,16 +1452,14 @@ h1 a:hover {
 
 
 
-
-
-
-
 /*__________________________________________________________________________________________*/
-
-
-
-
-
+/*__________________________________________________________________________________________*/
+/*__________________________________________________________________________________________*/
+/*________________New Media Query Starts here New Media Query Starts here___________________*/
+/*__________________________________________________________________________________________*/
+/*__________________________________________________________________________________________*/
+/*__________________________________________________________________________________________*/
+/*__________________________________________________________________________________________*/
 
 
 
@@ -925,13 +1479,22 @@ h1 a:hover {
 @media only screen and (min-width: 1200px) {
 
 
+	.pageHeroImage{
+		width: 40%;
+		height: 70vh;
+		position: absolute;
+		top: 15%;
+		right: 0;
+		z-index: -9999;
+	}
+
 	.headerBar{
 		width: 50%;
 		padding: 5vh 10vh 0 10vh;
 	}
 
 	h1{
-		font-size: 19.2px;
+		font-size: 24px;
 	}
 
 	.contentWrapper{
@@ -939,14 +1502,18 @@ h1 a:hover {
 	}
 	
 	.heroText{
-		font-size: 178px;
-		padding: 15vh 0 0 0;
+		font-size: 96px;
+		padding: 25vh 0 0 0;
 		margin-left: -0.9vh;
 	}
 
 	.subheader{
 		font-size: 46.88px;
-		padding: 0 0 20vh 0;
+		padding: 0 0 25vh 0;
+	}
+
+	.homeSubheader{
+		padding: 0 0 15vh 0;
 	}
 
 	.homeLinks{
@@ -959,23 +1526,28 @@ h1 a:hover {
 	}
 	
 	.sectionHeader{
-		font-size: 19.2px;
-		padding-bottom: 5vh;
+		font-size: 24px;
+		padding-bottom: 4vh;
 	}
 
 	.paragraph{
-		font-size: 46.88px;
+		font-size: 31px;
 		padding-bottom: 5vh;
+	}
+
+	.paragraphRow{
+		padding-bottom: 30vh;
+
 	}
 
 
 	.pIndent{
-		font-size: 46.88px;
-		padding:0 0 15vh 20vh;
+		font-size: 31px;
+		padding:0 0 0 10vh;
 	}
 
 	.longParagraph{
-		font-size: 46.88px;
+		font-size: 31px;
 		padding: 0 28vh 10vh 0;
 	}
 
@@ -1007,6 +1579,194 @@ h1 a:hover {
 	.imageBlockContent p {
 		font-size: 24px;
 	}
+
+
+
+
+
+
+
+	/*This styling controls the hover effects on our image blocks*/
+
+	.imageBlockContent{
+		position: relative;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.8);
+		padding: 0;
+		opacity: 0;
+		transition: all 250ms;
+	}
+
+	.imageBlockContent:hover{
+		opacity: 1;
+		transition: all 250ms;
+	}
+
+	.imageBlockContent p {
+		padding: 4vh;
+		color: #fff;
+		font-family: 'Syne-Extra';
+		font-size: 19.2px;
+		text-transform: uppercase;
+		position: absolute;
+		bottom: 0;
+  		left: 0;
+	}
+
+
+
+	/*This styling controls image block A*/
+
+	.imageGrid{
+		width: 100%;
+		height: 90vh;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin-bottom: 1%;
+	}
+
+	.A_blockLeft{
+		width: 40%;
+		height: 100%;
+		order: 1;
+	}
+
+	.A_blockRight{
+		width: 59%;
+		height: 100%;
+		order: 2;
+		flex-direction: column;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.imgDoubleRow{
+		order:1;
+		height: 48%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.A_rowImageOne{
+		order:1;
+		height: 100%;
+		width: 49%;
+	}
+
+	.A_rowImageTwo{
+		order:2;
+		height: 100%;
+		width: 49%;
+	}
+
+	.A_imgSingleRow{
+		order: 2;
+		height: 50%;
+		width: 100%;
+	}
+
+
+
+
+
+	/*This styling controls image block B*/
+
+
+	.B_blockLeft{ /*Shows up on Right in this config, see "order" parameter below*/
+		order: 2;
+		width: 40%;
+		height: 100%;
+	}
+
+	.B_blockRight{ /*Shows up on Left in this config, see "order" parameter below*/
+		order: 1;
+		width: 59%;
+		height: 100%;
+		flex-direction: column;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.imgDoubleRow{
+		order:1;
+		height: 48%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.B_rowImageOne{
+		order:1;
+		height: 100%;
+		width: 49%;
+	}
+
+	.B_rowImageTwo{
+		order:2;
+		height: 100%;
+		width: 49%;
+	}
+
+	.B_imgSingleRow{
+		order: 2;
+		height: 50%;
+		width: 100%;
+	}
+
+
+
+
+
+	/*This styling controls image block C*/
+
+
+	.C_blockLeft{
+		order: 1;
+		width: 40%;
+		height: 100%;
+	}
+
+	.C_blockRight{ 
+		order: 2;
+		width: 59%;
+		height: 100%;
+	}
+
+
+
+
+
+	/*This styling controls image block D*/
+
+
+	.D_blockLeft{ /*Shows up on Right in this config, see "order" parameter below*/
+		order: 2;
+		width: 40%;
+		height: 100%;
+	}
+
+	.D_blockRight{ /*Shows up on Left in this config, see "order" parameter below*/
+		order: 1;
+		width: 59%;
+		height: 100%;
+	}
+
+
+
+
+
+	/*This styling controls image block E*/
+
+
+	.E_block{
+		order: 1;
+		width: 100%;
+		height: 100%;
+	}
 }
 
 
@@ -1019,10 +1779,13 @@ h1 a:hover {
 
 
 
-
-
-
-
+/*__________________________________________________________________________________________*/
+/*__________________________________________________________________________________________*/
+/*__________________________________________________________________________________________*/
+/*________________New Media Query Starts here New Media Query Starts here___________________*/
+/*__________________________________________________________________________________________*/
+/*__________________________________________________________________________________________*/
+/*__________________________________________________________________________________________*/
 /*__________________________________________________________________________________________*/
 
 
@@ -1038,13 +1801,21 @@ h1 a:hover {
 
 
 
-
-
-
-
-
 /* large devices (1080p, above 1600px) */
-@media only screen and (min-width: 1800px) {
+@media only screen and (min-width: 1640px) {
+
+
+	.pageHeroImage{
+		width: 40%;
+		height: 80vh;
+		position: absolute;
+		top: 20%;
+		right: 0;
+		z-index: -9999;
+	}
+
+
+
 	.headerBar{
 		width: 50%;
 		padding: 5vh 10vh 0 10vh;
@@ -1059,14 +1830,19 @@ h1 a:hover {
 	}
 	
 	.heroText{
-		font-size: 223.52px;
-		padding: 15vh 0 0 0;
+		font-size: 119px;
+		padding: 25vh 0 0 0;
 		margin-left: -0.9vh;
 	}
 
+
 	.subheader{
 		font-size: 58.59px;
-		padding: 0 0 20vh 0;
+		padding: 0 0 25vh 0;
+	}
+
+	.homeSubheader{
+		padding: 0 0 15vh 0;
 	}
 
 	.homeLinks{
@@ -1079,23 +1855,29 @@ h1 a:hover {
 	}
 
 	.sectionHeader{
-		font-size: 19.2px;
-		padding-bottom: 7vh;
+		font-size: 24px;
+		padding-bottom: 0vh;
 	}
 
 	.paragraph{
-		font-size: 58.59px;
-		padding-bottom: 5vh;
+		font-size: 39px;
+		padding-bottom: 3vh;
+		line-height: 150%;
+	}
+
+	.paragraphRow{
+		padding-bottom: 20vh;
+
 	}
 /*Below needs updated on standard & smaller devices*/
 
 	.pIndent{
-		font-size: 58.59px;
-		padding:0 0 25vh 20vh;
+		font-size: 39px;
+		padding:0 0 0 10vh;
 	}
 
 	.longParagraph{
-		font-size: 58.59px;
+		font-size: 39px;
 		padding: 0 28vh 5vh 0;
 	}
 
@@ -1133,7 +1915,7 @@ h1 a:hover {
 		height: 100%;
 		background-color: rgba(0, 0, 0, 0.8);
 		padding: 0;
-		opacity: 1;
+		opacity: 0;
 		transition: all 250ms;
 	}
 
