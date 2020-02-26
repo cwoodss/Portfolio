@@ -58,22 +58,22 @@
 
 /*About Images*/
 #aboutImg1{
-	background-image: url(./assets/images/about/LucasHat.jpg);
+	background-image: url(./assets/images/about-LucasHat.jpg);
 	background-size: cover;
 }
  
 #aboutImg2{
-	background-image: url(./assets/images/about/babyLucas.jpg);
+	background-image: url(./assets/images/about-babyLucas.jpg);
 	background-size: cover;
 }
 
 #aboutImg3{
-	background-image: url(./assets/images/about/lucasDerp.jpg);
+	background-image: url(./assets/images/about-lucasDerp.jpg);
 	background-size: cover;
 }
 
 #aboutImg4{
-	background-image: url(./assets/images/about/carWindow.jpg);
+	background-image: url(./assets/images/about-carWindow.jpg);
 	background-size: cover;
 }
 
