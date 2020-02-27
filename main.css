@@ -46,7 +46,7 @@
 }
 
 #designHero{
-	background-image: url(./assets/images/about-HeroImage.jpg);
+	background-image: url(./assets/images/design-HeroImage.jpg);
 	background-size: cover;
 }
 
@@ -58,7 +58,7 @@
 
 /*About Images*/
 #aboutImg1{
-	background-image: url(./assets/images/e);
+	background-image: url(./assets/images/about-LucasHat.jpg);
 	background-size: cover;
 }
  
@@ -79,7 +79,7 @@
 
 
 
-
+/*Experiences Images*/
 #expImage1{
 	background-image: url(./assets/images/experiences-park-mark.jpg);
 	background-size: cover;
@@ -111,9 +111,6 @@
 }
 
 
-
-
-
 #expBlockAImg1{
 	background-image: url(./assets/images/experiences-under-lights.jpg);
 	background-size: cover;
@@ -139,8 +136,6 @@
 	background-image: url(./assets/images/exp-ksc-nike.jpg);
 	background-size: cover;
 }
-
-
 
 
 #expB2-1{
@@ -172,6 +167,65 @@
 	background-image: url(./assets/images/exp-pride-pic.jpg);
 	background-size: cover;
 }
+
+
+/*Designs Images*/
+
+#designImage1{
+	background-image: url(./assets/images/design-ascend-pattern.jpg);
+	background-size: cover;
+}
+
+#designImage2{
+	background-image: url(./assets/images/design-makecoolshit.gif);
+	background-size: cover;
+}
+
+#designImage3{
+	background-image: url(./assets/images/design-photo-1.jpg);
+	background-size: cover;
+}
+
+#designImage4{
+	background-image: url(./assets/images/design-identity.jpg);
+	background-size: cover;
+}
+
+#designImage5{
+	background-image: url(./assets/images/design-site.jpg);
+	background-size: cover;
+}
+
+#designImage6{
+	background-image: url(./assets/images/design-photo-2.jpg);
+	background-size: cover;
+}
+
+#designImage7{
+	background-image: url(./assets/images/design-cup.jpg);
+	background-size: cover;
+}
+
+#designImage8{
+	background-image: url(./assets/images/design-brand-book.jpg);
+	background-size: cover;
+}
+
+#designImage9{
+	background-image: url(./assets/images/design-pokemon.jpg);
+	background-size: cover;
+}
+
+
+/*__________________________________________________________________________________________*/
+/*__________________________________________________________________________________________*/
+/*__________________________________________________________________________________________*/
+/*_____________________________________________________IDs end here___________________*/
+/*__________________________________________________________________________________________*/
+/*__________________________________________________________________________________________*/
+/*__________________________________________________________________________________________*/
+/*__________________________________________________________________________________________*/
+
 
 
 
