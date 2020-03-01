@@ -11,6 +11,40 @@
 
 		<!-- Header -->
 			<header class="headerBar">
+
+				<nav role="navigation">
+					<div id="menuToggle">
+					  <!--
+					  A fake / hidden checkbox is used as click reciever,
+					  so you can use the :checked selector on it.
+					  -->
+					  <input type="checkbox" />
+					  
+					  <!--
+					  Some spans to act as a hamburger.
+					  
+					  They are acting like a real hamburger,
+					  not that McDonalds stuff.
+					  -->
+					  <span></span>
+					  <span></span>
+					  <span></span>
+					  
+					  <!--
+					  Too bad the menu has to be inside of the button
+					  but hey, it's pure CSS magic.
+					  -->
+					  <ul id="menu">
+						<a href="/index.html"><li>Home</li></a>
+						<a href="/about.html"><li>About</li></a>
+						<a href="/project-management.html"><li>Project Management</li></a>
+						<a href="/design.html"><li>Design</li></a>
+						<a href="/experiences.html"><li>Experience</li></a>
+						
+					  </ul>
+					</div>
+				  </nav>
+
 				<h1><a href="index.html">CWOODS</a></h1>
 			</header>
 
@@ -34,39 +68,66 @@
 
 			<div class="contentWrapper">
 				<h2 class="heroText">PM</h2>
-				<h3 class="subheader">Projects Managed.</h3>
+				<h3 class="preParagraphSub">Projects Managed.
+				</h3>
+
+				<!--Paragraph 1-->
+				<div class="inlongParagraph">
+					<p>I've managed an entire production team to develop brand experiences, marketing strategies, social media and cross platform campaigns, SEO, PPC advertising, websites, email marketing, and video work for local, national, and global brands and nonprofits across a wide range of industries. </p>
+				</div>
+				
 
 				<div class="imageGridPadder">
-						<!--Image Block A-->
+						
+					
+					<!--Image Block D-->
 					<div class="imageGrid">
-							<div class="A_blockLeft">
-								<a href="#">
+						<div id="pmImage1" class="D_blockLeft">
+							<a href="https://www.big.vision/solutions/creative-city-project">
+							<div class="imageBlockContent">
+								<div class="labelPadder"><p>Immerse</p></div>
+							</div>
+							</a>
+						</div>
+						<div id="pmImage2" class="D_blockRight">
+							<a href="https://dreamscapeimmersive.com/">
+							<div class="imageBlockContent">
+								<div class="labelPadder"><p>Dreamscape Immersive</p></div>
+							</div>
+							</a>
+						</div>		
+					</div>	
+					
+					<!--Image Block A-->
+					<div class="imageGrid">
+							<div id="pmImage3" class="A_blockLeft">
+								<a href="https://www.big.vision/solutions/healthcare-industry-insights">
 								<div class="imageBlockContent">
-									<div class="labelPadder"><div class="labelPadder"><p>My Label</p></div></div>
+									<div class="labelPadder"><div class="labelPadder"><p>The Assistance Fund</p></div></div>
 								</div>
 								</a>
 							</div>
 							<div class="A_blockRight">
 								<div class="imgDoubleRow">
-									<div class="A_rowImageOne">
-										<a href="#">
+									<div id="pmImage4" class="A_rowImageOne">
+										<a href="https://web.archive.org/web/20160306050321/https://www.trufflesmedispa.com/">
 								<div class="imageBlockContent">
-									<div class="labelPadder"><p>My Label</p></div>
+									<div class="labelPadder"><p>Truffles Medispa</p></div>
 								</div>
 								</a>
 									</div>
-									<div class="A_rowImageTwo">
-										<a href="#">
+									<div id="pmImage5" class="A_rowImageTwo">
+										<a href="https://web.archive.org/web/20181128210743/https://anthemwealth.com/">
 								<div class="imageBlockContent">
-									<div class="labelPadder"><p>My Label</p></div>
+									<div class="labelPadder"><p>Anthem Wealth Management</p></div>
 								</div>
 								</a>
 									</div>
 								</div>
-								<div class="A_imgSingleRow">
-									<a href="#">
+								<div id="pmImage6" class="A_imgSingleRow">
+									<a href="https://vimeo.com/218544007">
 										<div class="imageBlockContent">
-											<div class="labelPadder"><p>My Label</p></div>
+											<div class="labelPadder"><p>Myzone</p></div>
 										</div>
 										</a>
 								</div>
@@ -75,38 +136,38 @@
 		
 						<!--Image Block B-->
 						<div class="imageGrid">
-							<div class="B_blockLeft" id="About_bBlockLeft">
-								<a href="#">
+							<div class="B_blockLeft" id="pmImage7">
+								<a href="https://vimeo.com/229912409">
 								<div class="imageBlockContent">
-									<div class="labelPadder"><p>My Label</p></div>
+									<div class="labelPadder"><p>Florida Metal Fabrication</p></div>
 								</div>
 								</a>
 							</div>
 							<div class="B_blockRight">
 								<div class="imgDoubleRow">
-									<div class="B_rowImageOne">
+									<div id="pmImage8" class="B_rowImageOne">
 										<a href="#">
-								<a href="#">
+								<a href="https://pearson.oneascent.com/">
 								<div class="imageBlockContent">
-									<div class="labelPadder"><p>My Label</p></div>
+									<div class="labelPadder"><p>OneAscent</p></div>
 								</div>
 								</a>
 								</a>
 									</div>
-									<div class="B_rowImageTwo">
+									<div id="pmImage9" class="B_rowImageTwo">
 										<a href="#">
-								<a href="#">
+								<a href="https://synexusfl.com/">
 								<div class="imageBlockContent">
-									<div class="labelPadder"><p>My Label</p></div>
+									<div class="labelPadder"><p>Bioclinica Research</p></div>
 								</div>
 								</a>
 								</a>
 									</div>
 								</div>
-								<div class="B_imgSingleRow">
-									<a href="#">
+								<div id="pmImage10" class="B_imgSingleRow">
+									<a href="https://thebalconyorlando.com/">
 										<div class="imageBlockContent">
-											<div class="labelPadder"><p>My Label</p></div>
+											<div class="labelPadder"><p>The Balcony Orlando</p></div>
 										</div>
 										</a>
 								</div>
@@ -117,34 +178,19 @@
 				<!-- Prefooter Section Headline-->
 				<div class="prefooterHeadline">
 					<div>
-						What I'm <span class="js-typing-headlines"></span>	
+						Want to chat?
 					</div>
-				</div>
-
-				<!-- Prefooter Section Link-->
-				<div class="prefooterSectionLink js-typing-details">
-					<p class="js-details-container">
-						<!-- <a href="https://www.amazon.com/How-Google-Works-Eric-Schmidt-ebook/dp/B00HUU13Y0/ref=sr_1_1?crid=2ZTNZJ4E5Z7W5&keywords=how+google+works&qid=1582520570&sprefix=How+Google%2Caps%2C152&sr=8-1">How Google Works</a> -->
-					</p>
 				</div>
 
 				<!-- Prefooter Contact Link-->
 				<div class="prefooterContact">
-					<h5><a href="mailto:heyo@cierra.woodard.com">Have Recommendations?</a></h5>
+					<h5><a href="mailto:hello@cierra.woodard.com">Shoot me a message.</a></h5>
 				</div>
-
 			</div>
 
 			<!-- Black Bar-->
 		<div class="blackBar">
 		</div>			
 
-		<script
-			src="https://code.jquery.com/jquery-3.4.1.min.js"
-			integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-			crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.1.0/anime.min.js"></script>		
-		<script src="./assets/js/main.js"></script>
 	</body>
 </html>

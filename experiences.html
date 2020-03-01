@@ -11,6 +11,40 @@
 
 		<!-- Header -->
 			<header class="headerBar">
+
+				<nav role="navigation">
+					<div id="menuToggle">
+					  <!--
+					  A fake / hidden checkbox is used as click reciever,
+					  so you can use the :checked selector on it.
+					  -->
+					  <input type="checkbox" />
+					  
+					  <!--
+					  Some spans to act as a hamburger.
+					  
+					  They are acting like a real hamburger,
+					  not that McDonalds stuff.
+					  -->
+					  <span></span>
+					  <span></span>
+					  <span></span>
+					  
+					  <!--
+					  Too bad the menu has to be inside of the button
+					  but hey, it's pure CSS magic.
+					  -->
+					  <ul id="menu">
+						<a href="/index.html"><li>Home</li></a>
+						<a href="/about.html"><li>About</li></a>
+						<a href="/project-management.html"><li>Project Management</li></a>
+						<a href="/design.html"><li>Design</li></a>
+						<a href="/experiences.html"><li>Experience</li></a>
+						
+					  </ul>
+					</div>
+				  </nav>
+
 				<h1><a href="index.html">CWOODS</a></h1>
 			</header>
 
@@ -29,14 +63,17 @@
 		</svg>			   -->
 		<!-- Content -->
 
-			<div class="pageHeroImage" id="renderHero"></div>
+			<div class="pageHeroImage" id="experiencesHero"></div>
 
 
 			<div class="contentWrapper">
 				<h2 class="heroText">Experience</h2>
-				<h3 class="subheader">Creating Experiences.</h3>
+				<h3 class="preParagraphSub">Creating Experiences.</h3>
 
-				
+					<!--Paragraph 1-->
+					<div class="inlongParagraph">
+						<p>I've managed large scale creative and immersive AV installation projects up to $400,000; and I've created and negotiated projects up to $1.2 million.</p>
+					</div>
 
 
 				
@@ -228,7 +265,7 @@
 
 				<!-- Prefooter Contact Link-->
 				<div class="prefooterContact">
-					<h5><a href="mailto:heyo@cierra.woodard.com">Shoot me a message.</a></h5>
+					<h5><a href="mailto:hello@cierra.woodard.com">Shoot me a message.</a></h5>
 				</div>
 
 			</div>

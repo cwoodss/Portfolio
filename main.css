@@ -41,7 +41,7 @@
 }
 
 #pmHero{
-	background-image: url(./assets/images/about-HeroImage.jpg);
+	background-image: url(./assets/images/pm-HeroImage.jpg);
 	background-size: cover;
 }
 
@@ -50,8 +50,13 @@
 	background-size: cover;
 }
 
-#renderHero{
-	background-image: url(./assets/images/about-HeroImage.jpg);
+#experiencesHero{
+	background-image: url(./assets/images/experiences-HeroImage.jpg);
+	background-size: cover;
+}
+
+#homeHero{
+	background-image: url(./assets/images/homeHero.jpg);
 	background-size: cover;
 }
 
@@ -217,6 +222,244 @@
 }
 
 
+
+
+
+/*PM Images*/
+
+/*Designs Images*/
+
+#pmImage1{
+	background-image: url(./assets/images/pmImage2.jpg);
+	background-size: cover;
+}
+
+#pmImage2{
+	background-image: url(./assets/images/pmImage1.jpg);
+	background-size: cover;
+}
+
+#pmImage3{
+	background-image: url(./assets/images/pmImage3.jpg);
+	background-size: cover;
+}
+
+#pmImage4{
+	background-image: url(./assets/images/pmImage4.jpg);
+	background-size: cover;
+}
+
+#pmImage5{
+	background-image: url(./assets/images/pmImage5.jpg);
+	background-size: cover;
+}
+
+#pmImage6{
+	background-image: url(./assets/images/pmImage6.jpg);
+	background-size: cover;
+}
+
+#pmImage7{
+	background-image: url(./assets/images/pmImage10.jpg);
+	background-size: cover;
+}
+
+#pmImage8{
+	background-image: url(./assets/images/pmImage7.jpg);
+	background-size: cover;
+}
+
+#pmImage9{
+	background-image: url(./assets/images/pmImage8.jpg);
+	background-size: cover;
+}
+
+#pmImage10{
+	background-image: url(./assets/images/pmImage9.jpg);
+	background-size: cover;
+}
+
+
+
+
+
+
+
+
+/* Navigation Styling */
+
+
+
+/*
+ * Made by Erik Terwan
+ * 24th of November 2015
+ * MIT License
+ *
+ *
+ * If you are thinking of using this in
+ * production code, beware of the browser
+ * prefixes.
+ */
+
+
+ 
+ #menuToggle
+ {
+   display: block;
+   float: left;
+   margin-right: 50px;
+   position: relative;
+   top: 0px;
+   left: 0px;
+   
+   z-index: 1;
+   
+   -webkit-user-select: none;
+   user-select: none;
+
+ }
+ 
+ #menuToggle a
+ {
+   text-decoration: none;
+   color: var(--gray);
+   font-family: 'Syne';
+   
+   transition: color 0.3s ease;
+ }
+ 
+ #menuToggle a:hover
+ {
+   color: var(--black)
+ }
+ 
+ 
+ #menuToggle input
+ {
+   display: block;
+   width: 40px;
+   height: 32px;
+   position: absolute;
+   top: -7px;
+   left: -5px;
+   
+   cursor: pointer;
+   
+   opacity: 0; /* hide this */
+   z-index: 2; /* and place it over the hamburger */
+   
+   -webkit-touch-callout: none;
+ }
+ 
+ /*
+  * Just a quick hamburger
+  */
+ #menuToggle span
+ {
+   display: block;
+   width: 33px;
+   height: 4px;
+   margin-bottom: 5px;
+   position: relative;
+   
+   background: #cdcdcd;
+   border-radius: 3px;
+   
+   z-index: 1;
+   
+   transform-origin: 4px 0px;
+   
+   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+			   background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+			   opacity 0.55s ease;
+ }
+ 
+ #menuToggle span:first-child
+ {
+   transform-origin: 0% 0%;
+ }
+ 
+ #menuToggle span:nth-last-child(2)
+ {
+   transform-origin: 0% 100%;
+ }
+ 
+ /* 
+  * Transform all the slices of hamburger
+  * into a crossmark.
+  */
+ #menuToggle input:checked ~ span
+ {
+   opacity: 1;
+   transform: rotate(45deg) translate(-2px, -1px);
+   background: #232323;
+ }
+ 
+ /*
+  * But let's hide the middle one.
+  */
+ #menuToggle input:checked ~ span:nth-last-child(3)
+ {
+   opacity: 0;
+   transform: rotate(0deg) scale(0.2, 0.2);
+ }
+ 
+ /*
+  * Ohyeah and the last one should go the other direction
+  */
+ #menuToggle input:checked ~ span:nth-last-child(2)
+ {
+   transform: rotate(-45deg) translate(0, -1px);
+ }
+ 
+ /*
+  * Make this absolute positioned
+  * at the top left of the screen
+  */
+ #menu
+ {
+   position: absolute;
+   width: 300px;
+   margin: -100px 0 0 -120px;
+   padding: 50px 50px 50px 115px;
+   padding-top: 125px;
+   
+   background: #ededed;
+   list-style-type: none;
+   -webkit-font-smoothing: antialiased;
+   /* to stop flickering of text in safari */
+   
+   transform-origin: 0% 0%;
+   transform: translate(-100%, 0);
+   
+   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+ }
+ 
+ #menu li
+ {
+   padding: 10px 0;
+   font-size: 22px;
+ }
+ 
+ /*
+  * And let's slide it in from the left
+  */
+ #menuToggle input:checked ~ ul
+ {
+   transform: none;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
 /*__________________________________________________________________________________________*/
 /*__________________________________________________________________________________________*/
 /*__________________________________________________________________________________________*/
@@ -264,6 +507,11 @@ h1 a:hover {
 	color: var(--gray);
 }
 
+.preParagraphSub{
+	font-family: 'Syne';
+	color: var(--gray);
+}
+
 .homeLinks{
 	font-family: "Syne";
 	color: var(--gray);
@@ -304,6 +552,11 @@ h1 a:hover {
 }
 
 .longParagraph{
+	font-family: "Syne";
+	color: var(--gray);
+}
+
+.inlongParagraph{
 	font-family: "Syne";
 	color: var(--gray);
 }
@@ -413,6 +666,11 @@ h1 a:hover {
 		padding: 0 0 15vh 0;
 	}
 
+	.preParagraphSub{
+		font-size: 19.2px;
+		padding: 0 0 15vh 0;
+	}
+
 	.homeLinks{
 		font-size: 15.36px;
 	}
@@ -441,6 +699,12 @@ h1 a:hover {
 		font-size: 15px;
 		line-height: 150%;
 		padding-bottom: 0vh;
+	}
+
+	.inlongParagraph{
+		font-size: 15px;
+		line-height: 150%;
+		padding: 0 5vh 5vh 0;
 	}
 
 	.paragraphRow{
@@ -734,6 +998,11 @@ h1 a:hover {
 		padding: 0 0 20vh 0;
 	}
 
+	.preParagraphSub{
+		font-size: 19.2px;
+		padding: 0 0 20vh 0;
+	}
+
 	.homeLinks{
 		font-size: 19.2px;
 	}
@@ -762,6 +1031,12 @@ h1 a:hover {
 		font-size: 19.2px;
 		line-height: 150%;
 		padding: 0 5vh 1vh 0;
+	}
+
+	.inlongParagraph{
+		font-size: 19.2px;
+		line-height: 150%;
+		padding: 0 10vh 10vh 0;
 	}
 
 	.paragraphRow{
@@ -1045,6 +1320,11 @@ h1 a:hover {
 		padding: 0 0 20vh 0;
 	}
 
+	.preParagraphSub{
+		font-size: 24px;
+		padding: 0 0 20vh 0;
+	}
+
 	.homeLinks{
 		font-size: 24px;
 	}
@@ -1073,6 +1353,12 @@ h1 a:hover {
 		font-size: 24px;
 		line-height: 150%;
 		padding: 0 15vh 0vh 0;
+	}
+
+	.inlongParagraph{
+		font-size: 19.2px;
+		line-height: 150%;
+		padding: 0 15vh 10vh 0;
 	}
 
 	.paragraphRow{
@@ -1362,6 +1648,11 @@ h1 a:hover {
 		padding: 0 0 25vh 0;
 	}
 
+	.preParagraphSub{
+		font-size: 30px;
+		padding: 0 0 20vh 0;
+	}
+
 	.homeSubheader{
 		padding: 0 0 15vh 0;
 	}
@@ -1392,6 +1683,12 @@ h1 a:hover {
 	.longParagraph{
 		font-size: 30px;
 		padding: 0 0 2vh 0;
+	}
+
+
+	.inlongParagraph{
+		font-size: 19.2px;
+		padding: 0 60vh 10vh 0;
 	}
 
 	.paragraphRow{
@@ -1686,6 +1983,11 @@ h1 a:hover {
 		padding: 0 0 40vh 0;
 	}
 
+	.preParagraphSub{
+		font-size: 46.88px;
+		padding: 0 0 10vh 0;
+	}
+
 	.homeSubheader{
 		padding: 0 0 15vh 0;
 	}
@@ -1722,6 +2024,12 @@ h1 a:hover {
 	.longParagraph{
 		font-size: 31px;
 		padding: 0 10vh 0 0;
+	}
+
+
+	.inlongParagraph{
+		font-size: 31px;
+		padding: 0 70vh 15vh 0;
 	}
 
 	.prefooterHeadline{
@@ -2013,6 +2321,12 @@ h1 a:hover {
 		padding: 0 0 60vh 0;
 	}
 
+
+	.preParagraphSub{
+		font-size: 58.59px;
+		padding: 0 80vh 20vh 0;
+	}
+
 	.homeSubheader{
 		padding: 0 0 15vh 0;
 	}
@@ -2050,6 +2364,11 @@ h1 a:hover {
 	.longParagraph{
 		font-size: 39px;
 		padding: 0 20vh 3vh 0;
+	}
+
+	.inlongParagraph{
+		font-size: 39px;
+		padding: 0 80vh 30vh 0;
 	}
 
 	.prefooterHeadline{
