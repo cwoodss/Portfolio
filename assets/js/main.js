@@ -1,7 +1,7 @@
 $(function() {
     console.log('yo')
 
-    var details = ['Principles by Ray Dalio', 'Trip to Crete, Greece! 🛫', 'DAOs', 'Painting', 'New Girl 💁‍♀️', 'No Man's Sky'];
+    var details = ['Principles by Ray Dalio', 'Trip to Crete, Greece! 🛫', 'DAOs', 'Painting', 'New Girl 💁‍♀️', 'No Mans Sky'];
     var detailsContainer = $('.js-details-container');
 
     var options = {
