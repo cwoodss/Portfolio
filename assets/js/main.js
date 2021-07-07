@@ -1,11 +1,11 @@
 $(function() {
     console.log('yo')
 
-    var details = ['How Google Works', 'Trip to Crete, Greece! 🛫', 'CSS', 'Sketchup', 'Bojack Horseman 🐴', 'The Witcher 3'];
+    var details = ['Principles by Ray Dalio', 'Trip to Crete, Greece! 🛫', 'DAOs', 'Painting', 'New Girl 💁‍♀️', 'No Man's Sky'];
     var detailsContainer = $('.js-details-container');
 
     var options = {
-        strings: ['reading', 'planning', 'learning', 'practicing', 'watching', 'playing'],
+        strings: ['reading', 'planning', 'learning about', 'practicing', 'watching', 'playing'],
         typeSpeed: 80,
         loop: true,
         loopCount: Infinity,     
