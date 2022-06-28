@@ -1,11 +1,11 @@
 $(function() {
     console.log('yo')
 
-    var details = ['Principles by Ray Dalio', 'Trip to Crete, Greece! 🛫', 'DAOs', 'Painting', 'New Girl 💁‍♀️', 'No Mans Sky'];
+    var details = ['Principles by Ray Dalio', 'Trip to Crete, Greece! 🛫', 'How DAOs work', 'Painting', 'New Girl 💁‍♀️', 'No Mans Sky'];
     var detailsContainer = $('.js-details-container');
 
     var options = {
-        strings: ['reading', 'planning', 'learning about', 'practicing', 'watching', 'playing'],
+        strings: ['reading', 'planning', 'learning', 'practicing', 'watching', 'playing'],
         typeSpeed: 80,
         loop: true,
         loopCount: Infinity,     
