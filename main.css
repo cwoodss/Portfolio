@@ -285,59 +285,74 @@
 /*Ceramics Images*/
 
 #ceramicsImage1{
-	background-image: url(./assets/images/ceramics7.JPG);
+	background-image: url(./assets/images/ceramics7.jpg);
 	background-size: cover;
 }
 
 #ceramicsImage2{
-	background-image: url(./assets/images/ceramics12.JPG);
+	background-image: url(./assets/images/ceramics12.jpg);
 	background-size: cover;
 }
 
 #ceramicsImage3{
-	background-image: url(./assets/images/ceramics18.JPG);
+	background-image: url(./assets/images/ceramics18.jpg);
 	background-size: cover;
 }
 
 #ceramicsImage4{
-	background-image: url(./assets/images/ceramics20.JPG);
+	background-image: url(./assets/images/ceramics20.jpg);
 	background-size: cover;
 }
 
 #ceramicsImage5{
-	background-image: url(./assets/images/ceramics8.JPG);
+	background-image: url(./assets/images/ceramics8.jpg);
 	background-size: cover;
 }
 
 #ceramicsImage6{
-	background-image: url(./assets/images/ceramics11.JPG);
+	background-image: url(./assets/images/ceramics11.jpg);
 	background-size: cover;
 }
 
 #ceramicsImage7{
-	background-image: url(./assets/images/ceramics13.JPG);
+	background-image: url(./assets/images/ceramics13.jpg);
 	background-size: cover;
 }
 
 #ceramicsImage8{
-	background-image: url(./assets/images/ceramics14.JPG);
+	background-image: url(./assets/images/ceramics14.jpg);
 	background-size: cover;
 }
 
 #ceramicsImage9{
-	background-image: url(./assets/images/ceramics16.JPG);
+	background-image: url(./assets/images/ceramics16.jpg);
 	background-size: cover;
 }
 
 #ceramicsImage10{
-	background-image: url(./assets/images/ceramics17.JPG);
+	background-image: url(./assets/images/ceramics17.jpg);
 	background-size: cover;
 }
 
+#ceramicsImage11{
+	background-image: url(./assets/images/ceramics9.jpg);
+	background-size: cover;
+}
 
+#ceramicsImage12{
+	background-image: url(./assets/images/ceramics5.jpg);
+	background-size: cover;
+}
 
+#ceramicsImage13{
+	background-image: url(./assets/images/ceramics6.jpg);
+	background-size: cover;
+}
 
-
+#ceramicsImage14{
+	background-image: url(./assets/images/ceramics3.jpg);
+	background-size: cover;
+}
 
 /* Navigation Styling */
 
