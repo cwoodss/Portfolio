@@ -1,7 +1,7 @@
 $(function() {
     console.log('yo')
 
-    var details = ['The Antidote for Everything', 'Our Next Trip 🛫', 'Ceramics', 'Yoga', 'New Girl 💁‍♀️', 'Fortnite'];
+    var details = ['The Antidote for Everything', 'Paris Trip 🛫', 'Yoga', 'Ceramics', 'The Great Pottery Throwdown 🏺', 'Fortnite'];
     var detailsContainer = $('.js-details-container');
 
     var options = {
